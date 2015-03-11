@@ -1,0 +1,86 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress",
+                "type": "webroot",
+                "version": "4.1.1",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip"
+                },
+                "require" : {
+                    "fancyguy/webroot-installer": "1.1.0"
+                }
+            }
+        },
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/America-theme.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/america-publication-post-type.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/genesis-framework.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/wpml-sitepress-multilingual-cms.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/wpml-cms-nav.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/wpml-media-translation.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/wpml-sticky-links.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/wpml-string-translation.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/wpml-theme-tester.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/wpml-translation-management.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/wpml-xliff.git"
+        }
+    ],
+    "require": {
+        "wordpress": "4.1.1",
+        "fancyguy/webroot-installer": "1.1.0",
+        "iip-design/america": "dev-master",
+        "iip-design/america-publication-post-type": "dev-master",
+        "iipdesign/genesis": "dev-master",
+        "iipdesign/sitepress-multilingual-cms": "dev-master",
+        "iipdesign/wpml-cms-nav": "dev-master",
+        "iipdesign/wpml-media": "dev-master",
+        "iipdesign/wpml-sticky-links": "dev-master",
+        "iipdesign/wpml-string-translation": "dev-master",
+        "iipdesign/wpml-theme-tester": "dev-master",
+        "iipdesign/wpml-translation-management": "dev-master",
+        "iipdesign/wpml-xliff": "dev-master"
+    },
+    "extra": {
+        "webroot-dir": "wp",
+        "webroot-package": "wordpress"
+    }
+}

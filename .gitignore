@@ -1,0 +1,17 @@
+# Wordpress
+wp/
+wp-content/plugins
+wp-content/themes
+wp-content/uploads
+
+# Composer
+vendor
+composer.lock
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.Trashes
+Thumbs.db
+*.scssc
