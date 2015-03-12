@@ -67,6 +67,8 @@
     "require": {
         "wordpress": "4.1.1",
         "fancyguy/webroot-installer": "1.1.0",
+        "wpackagist-plugin/autoptimize": "1.9.2",
+        "wpackagist-plugin/meta-box": "4.4.2",
         "iip-design/america": "dev-master",
         "iip-design/america-publication-post-type": "dev-master",
         "iipdesign/genesis": "dev-master",
