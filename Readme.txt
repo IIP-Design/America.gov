@@ -1,2 +1,2 @@
-GitHub push test
-Second test passed
+GitHub hook test
+
