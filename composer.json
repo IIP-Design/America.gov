@@ -72,6 +72,8 @@
       	"wpackagist-plugin/mailchimp-for-wp": "2.2.7",
         "wpackagist-plugin/addthis": "4.0.5",
         "wpackagist-plugin/wordpress-seo": "1.7.4",
+        "wpackagist-plugin/google-apps-login": "2.8.3",
+	"wpackagist-plugin/regenerate-thumbnails": "2.2.4",
         "iip-design/america": "dev-master",
         "iip-design/america-publication-post-type": "dev-master",
         "iipdesign/genesis": "dev-master",
