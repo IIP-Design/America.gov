@@ -7,7 +7,6 @@ wp-content/uploads
 
 # Composer
 vendor
-composer.lock
 
 # OS generated files #
 ######################

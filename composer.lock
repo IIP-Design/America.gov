@@ -1,0 +1,561 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "104a2bd297560a86d73505dbf0254e74",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "fancyguy/webroot-installer",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fancyguy/webroot-installer.git",
+                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fancyguy/webroot-installer/zipball/a2d5c2e149d837e5580a62a91d3c91577aa30d28",
+                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "FancyGuy\\Composer\\WebrootInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "FancyGuy\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Buzonas",
+                    "email": "steve@fancyguy.com",
+                    "homepage": "http://www.stevebuzonas.com"
+                }
+            ],
+            "description": "A composer installer for libraries that live in an application webroot.",
+            "homepage": "http://fancyguy.github.com/webroot-installer/",
+            "time": "2013-03-15 17:51:14"
+        },
+        {
+            "name": "iip-design/america",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/America-theme.git",
+                "reference": "fe213f475dddf1b9f52b4a9297fa54f203d4f79e"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The America.gov base theme",
+            "time": "2015-03-16 10:42:21"
+        },
+        {
+            "name": "iip-design/america-publication-post-type",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/america-publication-post-type.git",
+                "reference": "3bad2d26c7893b30de264d7b37b71456305d7cb6"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "reganta@america.gov"
+                }
+            ],
+            "description": "Custom Publication Post Type",
+            "time": "2015-03-17 00:16:52"
+        },
+        {
+            "name": "iipdesign/genesis",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/genesis-framework.git",
+                "reference": "42570fd4c96ff65d4db2ccd6a2e56a16b12bde3e"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL v2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Studiopress",
+                    "email": "genesis@copyblogger.com"
+                }
+            ],
+            "description": "The Genesis Framework package for America.gov",
+            "time": "2015-03-11 16:13:39"
+        },
+        {
+            "name": "iipdesign/sitepress-multilingual-cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/wpml-sitepress-multilingual-cms.git",
+                "reference": "8b7a3ea4ef035ccbe04ac61b54164d5d92d80cbe"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
+            "time": "2015-03-11 15:45:50"
+        },
+        {
+            "name": "iipdesign/wpml-cms-nav",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/wpml-cms-nav.git",
+                "reference": "26c6b377da3ce6a14a8dd0d8b8c4a2ed3410c97d"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The CMS Navigation plugin adds navigational elements which you can use when building the site. This includes a breadcrumbs trail, drop-down menus and sidebar navigation.",
+            "time": "2015-03-11 16:18:10"
+        },
+        {
+            "name": "iipdesign/wpml-media",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/wpml-media-translation.git",
+                "reference": "922e15857827bd1e628d04ffa1b83bf7dc19b296"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "This plugin allows using the WordPress Gallery in different languages. You can control which images will display for each language.",
+            "time": "2015-03-11 16:23:20"
+        },
+        {
+            "name": "iipdesign/wpml-sticky-links",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/wpml-sticky-links.git",
+                "reference": "309b45443ef2615ce179f6f6580cf7028e69d7c4"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The Sticky Links plugin keeps internal links from ever breaking. It automatically tracks linked pages in your site and keeps all incoming links up-to-date. When you change permalink structure, hierarchy and even page slugs, all incoming links update immediately.",
+            "time": "2015-03-11 16:27:49"
+        },
+        {
+            "name": "iipdesign/wpml-string-translation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/wpml-string-translation.git",
+                "reference": "595800d26b1420594221f430f7731988b5e4bcf2"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The String Translation plugin allows to translate interface strings directly from within WordPress without having to use .mo files. \n\nThe String Translation plugin allows more than just translating static texts. It also lets you translate user-generated texts that are outside of posts and pages. For example, the tagline and SEO data.",
+            "time": "2015-03-11 16:31:41"
+        },
+        {
+            "name": "iipdesign/wpml-theme-tester",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/wpml-theme-tester.git",
+                "reference": "dfbd2eca324cab064af8e5c5c0bcb0f72cc50301"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "time": "2015-03-11 16:35:02"
+        },
+        {
+            "name": "iipdesign/wpml-translation-management",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/wpml-translation-management.git",
+                "reference": "a2767a25c77b2e3af4586014d21df173c530a39d"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "When your clients receive their newly created multilingual site, your work ends and their work begins. The Translation Management plugin helps site admins manage their translation work. They will turn normal users into translators, send jobs to them and track progress of the site’s translation status.",
+            "time": "2015-03-11 16:37:47"
+        },
+        {
+            "name": "iipdesign/wpml-xliff",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/wpml-xliff.git",
+                "reference": "4af3f168ebe8579c3ec7616062bc032b1244cd10"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "Lets you send content to translation services or freelance translators using the industry-standard XLIFF interface. The XLIFF interface extends WPML’s Translation Dashboard allowing you to send documents and receive them in XLIFF format.",
+            "time": "2015-03-11 16:40:06"
+        },
+        {
+            "name": "wordpress",
+            "version": "4.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "fancyguy/webroot-installer": "1.1.0"
+            },
+            "type": "webroot"
+        },
+        {
+            "name": "wpackagist-plugin/addthis",
+            "version": "4.0.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/addthis/",
+                "reference": "tags/4.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.4.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/addthis/"
+        },
+        {
+            "name": "wpackagist-plugin/autoptimize",
+            "version": "1.9.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/autoptimize/",
+                "reference": "tags/1.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.1.9.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autoptimize/"
+        },
+        {
+            "name": "wpackagist-plugin/google-apps-login",
+            "version": "2.8.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/google-apps-login/",
+                "reference": "tags/2.8.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.8.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-apps-login/"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "2.2.7",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/2.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.2.2.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/meta-box",
+            "version": "4.4.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/meta-box/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/meta-box.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/meta-box/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "1.7.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/1.7.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.1.7.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "iip-design/america": 20,
+        "iip-design/america-publication-post-type": 20,
+        "iipdesign/genesis": 20,
+        "iipdesign/sitepress-multilingual-cms": 20,
+        "iipdesign/wpml-cms-nav": 20,
+        "iipdesign/wpml-media": 20,
+        "iipdesign/wpml-sticky-links": 20,
+        "iipdesign/wpml-string-translation": 20,
+        "iipdesign/wpml-theme-tester": 20,
+        "iipdesign/wpml-translation-management": 20,
+        "iipdesign/wpml-xliff": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
