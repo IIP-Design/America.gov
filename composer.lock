@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "638638b65f61f57589b70fe875fbbcc4",
+    "hash": "06db64800fd1844ee6c6001c845a19f7",
     "packages": [
         {
             "name": "composer/installers",
@@ -211,6 +211,30 @@
             ],
             "description": "The Genesis Framework package for America.gov",
             "time": "2015-03-11 16:13:39"
+        },
+        {
+            "name": "iipdesign/mailchimp-for-wordpress-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/mailchimp-for-wordpress-pro.git",
+                "reference": "16a821b7bd5d13f2af6704f82d9ffeb3497759c3"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The best MailChimp plugin for WordPress.",
+            "time": "2015-03-20 17:43:28"
         },
         {
             "name": "iipdesign/sitepress-multilingual-cms",
@@ -478,26 +502,6 @@
             "homepage": "https://wordpress.org/plugins/google-apps-login/"
         },
         {
-            "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "2.2.7",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/2.2.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.2.2.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
-        },
-        {
             "name": "wpackagist-plugin/meta-box",
             "version": "4.4.2",
             "source": {
@@ -584,6 +588,7 @@
     "stability-flags": {
         "iip-design/america": 20,
         "iip-design/america-publication-post-type": 20,
+        "iipdesign/mailchimp-for-wordpress-pro": 20,
         "iipdesign/genesis": 20,
         "iipdesign/sitepress-multilingual-cms": 20,
         "iipdesign/wpml-cms-nav": 20,
