@@ -62,6 +62,10 @@
         {
             "type": "git",
             "url": "git@bitbucket.org:iipdesign/wpml-xliff.git"
+        },
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:iipdesign/mailchimp-for-wordpress-pro.git"
         }
     ],
     "require": {
