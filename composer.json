@@ -81,6 +81,7 @@
       	"wpackagist-plugin/simple-social-icons": "1.0.8",
         "iip-design/america": "dev-master",
         "iip-design/america-publication-post-type": "dev-master",
+        "iipdesign/mailchimp-for-wordpress-pro": "dev-master",
         "iipdesign/genesis": "dev-master",
         "iipdesign/sitepress-multilingual-cms": "dev-master",
         "iipdesign/wpml-cms-nav": "dev-master",
