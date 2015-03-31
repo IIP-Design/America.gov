@@ -5,6 +5,9 @@ wp-content/plugins
 wp-content/themes
 wp-content/uploads
 
+# wordpress-mu-domain-mapping
+wp-content/sunrise.php
+
 # Composer
 vendor
 
