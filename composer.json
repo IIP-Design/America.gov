@@ -78,7 +78,7 @@
         "wpackagist-plugin/google-apps-login": "2.8.3",
       	"wpackagist-plugin/regenerate-thumbnails": "2.2.4",
       	"wpackagist-plugin/simple-social-icons": "1.0.8",
-        "iip-design/america": "dev-dev",
+        "iip-design/america": "1.0.0",
         "iip-design/america-publication-post-type": "dev-master",
         "iipdesign/mailchimp-for-wordpress-pro": "dev-master",
         "iipdesign/genesis": "dev-master",

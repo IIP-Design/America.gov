@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "06db64800fd1844ee6c6001c845a19f7",
+    "hash": "b8a60bd9e27df7b206c8dd2dc1942dd4",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "5a60c3e50f858e924d45113248093d2a3d76b8af"
+                "reference": "3f58fba89c4ed2329754af0c87e01d6badd93a44"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-03-18 19:43:10"
+            "time": "2015-04-01 15:32:43"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -503,7 +503,7 @@
         },
         {
             "name": "wpackagist-plugin/meta-box",
-            "version": "4.4.2",
+            "version": "4.4.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/meta-box/",
@@ -586,7 +586,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "iip-design/america": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
         "iipdesign/genesis": 20,
