@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7322c99ae8edea3fc1afa8ad2b82532",
+    "hash": "5843faca83b441a4d869e424cfd23d6b",
     "packages": [
         {
             "name": "composer/installers",
@@ -658,6 +658,7 @@
         "iipdesign/wpml-xliff": 20
     },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
