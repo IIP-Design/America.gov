@@ -68,7 +68,12 @@ $table_prefix  = 'wp_';
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+
+if (getenv('DEV') == 'True') {
+	define('WP_DEBUG', true);
+} else {
+	define('WP_DEBUG', false);
+}
 
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
 
