@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5843faca83b441a4d869e424cfd23d6b",
+    "hash": "be95d0d69f817e185d39ffc288b8fe3a",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "738dc4dc5e6af679b4c824c4eee5a0822241dd14"
+                "reference": "05f21be0c8243f83502ca94ef5646b2e8b6eaa50"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-04-02 17:57:20"
+            "time": "2015-04-03 17:53:26"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -242,7 +242,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-sitepress-multilingual-cms.git",
-                "reference": "8b7a3ea4ef035ccbe04ac61b54164d5d92d80cbe"
+                "reference": "d96bd18c659db03059e9a68898470e1429e82003"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -258,7 +258,7 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-03-11 15:45:50"
+            "time": "2015-04-03 17:51:38"
         },
         {
             "name": "iipdesign/wpml-cms-nav",
@@ -266,7 +266,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-cms-nav.git",
-                "reference": "26c6b377da3ce6a14a8dd0d8b8c4a2ed3410c97d"
+                "reference": "d92b5a52a2d21553f4f1fd50080db9938833de4c"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -282,7 +282,7 @@
                 }
             ],
             "description": "The CMS Navigation plugin adds navigational elements which you can use when building the site. This includes a breadcrumbs trail, drop-down menus and sidebar navigation.",
-            "time": "2015-03-11 16:18:10"
+            "time": "2015-04-03 18:03:35"
         },
         {
             "name": "iipdesign/wpml-media",
@@ -290,7 +290,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-media-translation.git",
-                "reference": "922e15857827bd1e628d04ffa1b83bf7dc19b296"
+                "reference": "e36e3c87fb7e04e7ebba8a835188faeda1ac34ce"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -306,7 +306,7 @@
                 }
             ],
             "description": "This plugin allows using the WordPress Gallery in different languages. You can control which images will display for each language.",
-            "time": "2015-03-11 16:23:20"
+            "time": "2015-04-03 18:02:41"
         },
         {
             "name": "iipdesign/wpml-sticky-links",
@@ -314,7 +314,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-sticky-links.git",
-                "reference": "309b45443ef2615ce179f6f6580cf7028e69d7c4"
+                "reference": "9b562cc09aef738d935a8cd4ede85776d470ea96"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -330,7 +330,7 @@
                 }
             ],
             "description": "The Sticky Links plugin keeps internal links from ever breaking. It automatically tracks linked pages in your site and keeps all incoming links up-to-date. When you change permalink structure, hierarchy and even page slugs, all incoming links update immediately.",
-            "time": "2015-03-11 16:27:49"
+            "time": "2015-04-03 18:01:42"
         },
         {
             "name": "iipdesign/wpml-string-translation",
@@ -338,7 +338,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-string-translation.git",
-                "reference": "595800d26b1420594221f430f7731988b5e4bcf2"
+                "reference": "aba4989b7cfdc2501ad66b613529f6544819c688"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -354,7 +354,7 @@
                 }
             ],
             "description": "The String Translation plugin allows to translate interface strings directly from within WordPress without having to use .mo files. \n\nThe String Translation plugin allows more than just translating static texts. It also lets you translate user-generated texts that are outside of posts and pages. For example, the tagline and SEO data.",
-            "time": "2015-03-11 16:31:41"
+            "time": "2015-04-03 18:00:36"
         },
         {
             "name": "iipdesign/wpml-theme-tester",
@@ -385,7 +385,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-translation-management.git",
-                "reference": "a2767a25c77b2e3af4586014d21df173c530a39d"
+                "reference": "7114e79d5acbdcac4309875d289d06d5e220e20a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -401,7 +401,7 @@
                 }
             ],
             "description": "When your clients receive their newly created multilingual site, your work ends and their work begins. The Translation Management plugin helps site admins manage their translation work. They will turn normal users into translators, send jobs to them and track progress of the site’s translation status.",
-            "time": "2015-03-11 16:37:47"
+            "time": "2015-04-03 17:58:12"
         },
         {
             "name": "iipdesign/wpml-xliff",
@@ -409,7 +409,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-xliff.git",
-                "reference": "4af3f168ebe8579c3ec7616062bc032b1244cd10"
+                "reference": "f70bddf46add3acafc9d0e6467401f352a223aba"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -425,7 +425,7 @@
                 }
             ],
             "description": "Lets you send content to translation services or freelance translators using the industry-standard XLIFF interface. The XLIFF interface extends WPML’s Translation Dashboard allowing you to send documents and receive them in XLIFF format.",
-            "time": "2015-03-11 16:40:06"
+            "time": "2015-04-03 17:55:27"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
