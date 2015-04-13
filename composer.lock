@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "044bc1b25d5b30dd4f56a646ada260f1",
+    "hash": "86ddf7f16506c682f8b00717c5cc35a3",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "1.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "05f21be0c8243f83502ca94ef5646b2e8b6eaa50"
+                "reference": "bcaa4c2badb8f0f83c82587300cba746880eb398"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-04-03 17:53:26"
+            "time": "2015-04-07 12:51:32"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -541,6 +541,26 @@
             "homepage": "https://wordpress.org/plugins/google-apps-login/"
         },
         {
+            "name": "wpackagist-plugin/gravitate-event-tracking",
+            "version": "1.3.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/gravitate-event-tracking/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gravitate-event-tracking.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gravitate-event-tracking/"
+        },
+        {
             "name": "wpackagist-plugin/meta-box",
             "version": "4.4.3",
             "source": {
@@ -645,6 +665,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "iip-design/america": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
         "iipdesign/genesis": 20,
