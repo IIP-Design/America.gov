@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9de1b01294644660dbb8a77ba201930d",
+    "hash": "22c7ea62417d02467ea0bc03e7129e61",
     "packages": [
         {
             "name": "composer/installers",
@@ -502,15 +502,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "1.9.2",
+            "version": "1.9.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/1.9.2"
+                "reference": "tags/1.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.1.9.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.1.9.3.zip",
                 "reference": null,
                 "shasum": null
             },
