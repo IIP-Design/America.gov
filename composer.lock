@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a84928a3f9fd079514f64d95483e5013",
+    "hash": "e3ccc46d3ad9823cd0d6a66299ab0f2e",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "1.5",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "9270e6b7dbf1510dbffbf40aa391621877c76964"
+                "reference": "7f9853509ef7dc8b7e11362d672e891d56637f17"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-04-17 19:53:21"
+            "time": "2015-04-20 19:49:40"
         },
         {
             "name": "iip-design/america-publication-post-type",
