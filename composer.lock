@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b62e24a06a04720284c25f19cfd3464",
+    "hash": "e3ccc46d3ad9823cd0d6a66299ab0f2e",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "1.3.1",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "277710a34dc2c16b3d80b7ea776ee027157457c8"
+                "reference": "7f9853509ef7dc8b7e11362d672e891d56637f17"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-04-16 14:11:01"
+            "time": "2015-04-20 19:49:40"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -194,7 +194,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/genesis-framework.git",
-                "reference": "f84fc231b6852290f64f788d8911d9acf8744be2"
+                "reference": "42570fd4c96ff65d4db2ccd6a2e56a16b12bde3e"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -210,7 +210,7 @@
                 }
             ],
             "description": "The Genesis Framework package for America.gov",
-            "time": "2015-04-15 14:13:12"
+            "time": "2015-03-11 16:13:39"
         },
         {
             "name": "iipdesign/mailchimp-for-wordpress-pro",
@@ -502,15 +502,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "1.9.2",
+            "version": "1.9.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/1.9.2"
+                "reference": "tags/1.9.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.1.9.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.1.9.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -519,6 +519,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autoptimize/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "4.1.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/4.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
