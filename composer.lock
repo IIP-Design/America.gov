@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a23ae01b9e058c26929467b33cd688db",
+    "hash": "6ce9dab014c96e91513c95827eb78116",
     "packages": [
         {
             "name": "composer/installers",
@@ -235,6 +235,29 @@
             ],
             "description": "The best MailChimp plugin for WordPress.",
             "time": "2015-03-20 17:43:28"
+        },
+        {
+            "name": "iipdesign/password-protected",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:iipdesign/password-protected.git",
+                "reference": "46e671fad1d32f7083a2451fd5ffd308a8bd939f"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL v2.0"
+            ],
+            "authors": [
+                {
+                    "name": "husobj"
+                }
+            ],
+            "description": "A fork of password-protected",
+            "time": "2015-04-22 12:45:41"
         },
         {
             "name": "iipdesign/sitepress-multilingual-cms",
@@ -601,26 +624,6 @@
             "homepage": "https://wordpress.org/plugins/meta-box/"
         },
         {
-            "name": "wpackagist-plugin/password-protected",
-            "version": "2.0",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/password-protected/",
-                "reference": "tags/2.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/password-protected.2.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/password-protected/"
-        },
-        {
             "name": "wpackagist-plugin/regenerate-thumbnails",
             "version": "2.2.4",
             "source": {
@@ -708,6 +711,7 @@
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
         "iipdesign/genesis": 20,
+        "iipdesign/password-protected": 20,
         "iipdesign/sitepress-multilingual-cms": 20,
         "iipdesign/wpml-cms-nav": 20,
         "iipdesign/wpml-media": 20,
