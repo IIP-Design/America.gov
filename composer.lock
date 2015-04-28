@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1e2f34f75d5c2a005b033507ff8add07",
+    "hash": "1bd6eba03fe015a8ce4d60298a5dae9b",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "1.6.3",
+            "version": "1.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "6f95b26a0ead0adb7f57614d4ca02c1d24318160"
+                "reference": "b3561000d8abe0318fad73bec5a6ae71ff729dfd"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-04-23 18:25:20"
+            "time": "2015-04-28 13:18:02"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -491,10 +491,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.1.2",
+            "version": "4.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.1.2.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -545,15 +545,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.1.1",
+            "version": "4.1.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.1.1"
+                "reference": "tags/4.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -605,15 +605,15 @@
         },
         {
             "name": "wpackagist-plugin/meta-box",
-            "version": "4.4.3",
+            "version": "4.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/meta-box/",
-                "reference": "trunk"
+                "reference": "tags/4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/meta-box.zip",
+                "url": "https://downloads.wordpress.org/plugin/meta-box.4.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -685,15 +685,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.0.1",
+            "version": "2.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.0.1"
+                "reference": "tags/2.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.0.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
