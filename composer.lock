@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "122df034016d372e18ecfe70264a5b2c",
+    "hash": "302289ce4422fdf2c56163131d674962",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,7 +145,7 @@
         },
         {
             "name": "iip-design/america",
-            "version": "dev-dev",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
@@ -729,7 +729,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "iip-design/america": 20,
         "iip-design/america-theme-extender": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
