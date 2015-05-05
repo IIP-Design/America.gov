@@ -149,7 +149,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "ecd2edd838b80f5ce82fc7bc11ca410f0ee61eaa"
+                "reference": "06b3b7c89e5c5f9ef081090697406fe22de25835"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-05-05 16:56:43"
+            "time": "2015-05-05 17:54:24"
         },
         {
             "name": "iip-design/america-publication-post-type",
