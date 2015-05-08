@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1bd6eba03fe015a8ce4d60298a5dae9b",
+    "hash": "d484c61c98893322878c843e80fe2422",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "1.7",
+            "version": "2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "b3561000d8abe0318fad73bec5a6ae71ff729dfd"
+                "reference": "1be754b0c52cd3fbb3fba5e1deb037c47c52e1ea"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-04-28 13:18:02"
+            "time": "2015-05-08 18:39:51"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -187,6 +187,27 @@
             ],
             "description": "Custom Publication Post Type",
             "time": "2015-03-17 00:16:52"
+        },
+        {
+            "name": "iip-design/america-theme-extender",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/america-theme-extender.git",
+                "reference": "8a51de931e26cde756ef165cb02be48b9ac79238"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "reganta@america.gov"
+                }
+            ],
+            "description": "Extends america base theme",
+            "time": "2015-05-06 14:19:13"
         },
         {
             "name": "iipdesign/genesis",
@@ -491,10 +512,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.2.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.2.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -708,6 +729,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "iip-design/america-theme-extender": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
         "iipdesign/genesis": 20,
