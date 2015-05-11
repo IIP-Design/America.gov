@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d484c61c98893322878c843e80fe2422",
+    "hash": "c8a28739e111a9949a480048f641f27e",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "2.1",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "1be754b0c52cd3fbb3fba5e1deb037c47c52e1ea"
+                "reference": "94649abc98d439611df8e33ada8318c5e0902942"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-05-08 18:39:51"
+            "time": "2015-05-11 17:05:03"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -626,15 +626,15 @@
         },
         {
             "name": "wpackagist-plugin/meta-box",
-            "version": "4.5",
+            "version": "4.5.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/meta-box/",
-                "reference": "tags/4.5"
+                "reference": "tags/4.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/meta-box.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/meta-box.4.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
