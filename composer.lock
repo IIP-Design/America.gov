@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b4122824b6ca3e8f97f2be7302d6aff",
+    "hash": "d7ea48885591de7ce8b8836b864acd58",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "dev-dev",
+            "version": "2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "06ca5b491fce834286af9ce679a3cd9a0bfbf295"
+                "reference": "a86495c34dde2cc22c5a158b7c6a423621d7161b"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-05-13 18:57:08"
+            "time": "2015-05-14 17:18:52"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -194,7 +194,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-theme-extender.git",
-                "reference": "f193b40c051a21721916970f1f7118f584d3245d"
+                "reference": "c6e98530fe1ecea47b6397c6f12c01e933af6381"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -207,7 +207,7 @@
                 }
             ],
             "description": "Extends america base theme",
-            "time": "2015-05-13 16:43:42"
+            "time": "2015-05-14 20:22:04"
         },
         {
             "name": "iipdesign/genesis",
@@ -729,7 +729,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "iip-design/america": 20,
         "iip-design/america-theme-extender": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
