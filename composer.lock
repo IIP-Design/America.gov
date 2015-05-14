@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c8a28739e111a9949a480048f641f27e",
+    "hash": "7b4122824b6ca3e8f97f2be7302d6aff",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "2.1.1",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "94649abc98d439611df8e33ada8318c5e0902942"
+                "reference": "06ca5b491fce834286af9ce679a3cd9a0bfbf295"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-05-11 17:05:03"
+            "time": "2015-05-13 18:57:08"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -194,7 +194,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-theme-extender.git",
-                "reference": "8a51de931e26cde756ef165cb02be48b9ac79238"
+                "reference": "f193b40c051a21721916970f1f7118f584d3245d"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -207,7 +207,7 @@
                 }
             ],
             "description": "Extends america base theme",
-            "time": "2015-05-06 14:19:13"
+            "time": "2015-05-13 16:43:42"
         },
         {
             "name": "iipdesign/genesis",
@@ -729,6 +729,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "iip-design/america": 20,
         "iip-design/america-theme-extender": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
