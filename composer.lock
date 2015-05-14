@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c8a28739e111a9949a480048f641f27e",
+    "hash": "d7ea48885591de7ce8b8836b864acd58",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "2.1.1",
+            "version": "2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "94649abc98d439611df8e33ada8318c5e0902942"
+                "reference": "a86495c34dde2cc22c5a158b7c6a423621d7161b"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-05-11 17:05:03"
+            "time": "2015-05-14 17:18:52"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -194,7 +194,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-theme-extender.git",
-                "reference": "8a51de931e26cde756ef165cb02be48b9ac79238"
+                "reference": "c6e98530fe1ecea47b6397c6f12c01e933af6381"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -207,7 +207,7 @@
                 }
             ],
             "description": "Extends america base theme",
-            "time": "2015-05-06 14:19:13"
+            "time": "2015-05-14 20:22:04"
         },
         {
             "name": "iipdesign/genesis",
