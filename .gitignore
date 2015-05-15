@@ -4,6 +4,7 @@ wp-content/cache
 wp-content/plugins
 wp-content/themes
 wp-content/uploads
+wp-content/debug.log
 
 # wordpress-mu-domain-mapping
 wp-content/sunrise.php
