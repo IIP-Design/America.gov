@@ -71,6 +71,7 @@ $table_prefix  = 'wp_';
 
 if (getenv('DEV') == 'True') {
 	define('WP_DEBUG', true);
+	define('WP_DEBUG_LOG', true);
 } else {
 	define('WP_DEBUG', false);
 }
