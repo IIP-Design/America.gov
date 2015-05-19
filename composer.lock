@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "36004118c775ebe6bc90b7ad5727fd00",
+    "hash": "18bd814700afbeedb1f638e09267cd6d",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "2.3",
+            "version": "2.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "a258267fd640384d9209a936cee627e267b3f1df"
+                "reference": "52ec6dc28d7121f34eda8cdb42833235bd30ff5f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-05-18 17:48:34"
+            "time": "2015-05-19 18:53:35"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -626,15 +626,15 @@
         },
         {
             "name": "wpackagist-plugin/meta-box",
-            "version": "4.5.2",
+            "version": "4.5.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/meta-box/",
-                "reference": "tags/4.5.2"
+                "reference": "tags/4.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/meta-box.4.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/meta-box.4.5.3.zip",
                 "reference": null,
                 "shasum": null
             },
