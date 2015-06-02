@@ -96,11 +96,11 @@
         "iipdesign/mailchimp-for-wordpress-pro": "dev-master",
         "iipdesign/genesis": "dev-master",
         "iipdesign/password-protected": "dev-master",
-        "iipdesign/sitepress-multilingual-cms": "dev-master",
+        "iipdesign/sitepress-multilingual-cms": "dev-dev",
         "iipdesign/wpml-cms-nav": "dev-master",
         "iipdesign/wpml-media": "dev-master",
         "iipdesign/wpml-sticky-links": "dev-master",
-        "iipdesign/wpml-string-translation": "dev-master",
+        "iipdesign/wpml-string-translation": "dev-dev",
         "iipdesign/wpml-theme-tester": "dev-master",
         "iipdesign/wpml-translation-management": "dev-master",
         "iipdesign/wpml-xliff": "dev-master"
