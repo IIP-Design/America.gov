@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a3b9f5169a488a672cb8e9d3bfa4fdde",
+    "hash": "f66ba60137795a2ea244a375307b6303",
     "packages": [
         {
             "name": "composer/installers",
@@ -282,11 +282,11 @@
         },
         {
             "name": "iipdesign/sitepress-multilingual-cms",
-            "version": "dev-master",
+            "version": "3.1.9.7",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-sitepress-multilingual-cms.git",
-                "reference": "d96bd18c659db03059e9a68898470e1429e82003"
+                "reference": "efd34eddc8abdf5ecb804efbdf391eccc7d76049"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -302,7 +302,7 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-04-03 17:51:38"
+            "time": "2015-06-03 14:30:06"
         },
         {
             "name": "iipdesign/wpml-cms-nav",
@@ -378,11 +378,11 @@
         },
         {
             "name": "iipdesign/wpml-string-translation",
-            "version": "dev-master",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/wpml-string-translation.git",
-                "reference": "aba4989b7cfdc2501ad66b613529f6544819c688"
+                "reference": "070a94a45cdcf2b37161f78974e1b1fa7c580fc5"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -398,7 +398,7 @@
                 }
             ],
             "description": "The String Translation plugin allows to translate interface strings directly from within WordPress without having to use .mo files. \n\nThe String Translation plugin allows more than just translating static texts. It also lets you translate user-generated texts that are outside of posts and pages. For example, the tagline and SEO data.",
-            "time": "2015-04-03 18:00:36"
+            "time": "2015-06-03 14:31:31"
         },
         {
             "name": "iipdesign/wpml-theme-tester",
@@ -734,11 +734,9 @@
         "iipdesign/mailchimp-for-wordpress-pro": 20,
         "iipdesign/genesis": 20,
         "iipdesign/password-protected": 20,
-        "iipdesign/sitepress-multilingual-cms": 20,
         "iipdesign/wpml-cms-nav": 20,
         "iipdesign/wpml-media": 20,
         "iipdesign/wpml-sticky-links": 20,
-        "iipdesign/wpml-string-translation": 20,
         "iipdesign/wpml-theme-tester": 20,
         "iipdesign/wpml-translation-management": 20,
         "iipdesign/wpml-xliff": 20
