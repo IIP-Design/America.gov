@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "67a72c6ec3b5d13d2a6fa4bd4bc2ab57",
+    "hash": "7eeb250a26cb5a7f47c66d11181d9325",
     "packages": [
         {
             "name": "composer/installers",
@@ -526,15 +526,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "4.0.7",
+            "version": "5.0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/4.0.7"
+                "reference": "tags/5.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.4.0.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -643,6 +643,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/meta-box/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "2.7.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/2.7.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
