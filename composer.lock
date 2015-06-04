@@ -173,7 +173,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-publication-post-type.git",
-                "reference": "3bad2d26c7893b30de264d7b37b71456305d7cb6"
+                "reference": "f91a3db5bd716b76b9abe8dd8e33a6bdc970239f"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -186,7 +186,7 @@
                 }
             ],
             "description": "Custom Publication Post Type",
-            "time": "2015-03-17 00:16:52"
+            "time": "2015-06-04 17:13:28"
         },
         {
             "name": "iip-design/america-theme-extender",
