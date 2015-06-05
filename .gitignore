@@ -9,6 +9,9 @@ wp-content/debug.log
 # wordpress-mu-domain-mapping
 wp-content/sunrise.php
 
+# wordpress-query-monitor
+wp-content/db.php
+
 # Composer
 vendor
 
