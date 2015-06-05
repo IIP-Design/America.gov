@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ddff48b554b17475c549e9693cd9a1c",
+    "hash": "601db0f9fd5ac6b8c870be6fe46e0d88",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "2.7",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "bb20e45c8a4e50cdea694aecf3937fc89a33b69f"
+                "reference": "8944e270644861f628d93f75104cdebe61cb23fe"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-06-03 18:09:46"
+            "time": "2015-06-05 18:12:50"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -173,7 +173,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-publication-post-type.git",
-                "reference": "3bad2d26c7893b30de264d7b37b71456305d7cb6"
+                "reference": "f91a3db5bd716b76b9abe8dd8e33a6bdc970239f"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -186,7 +186,7 @@
                 }
             ],
             "description": "Custom Publication Post Type",
-            "time": "2015-03-17 00:16:52"
+            "time": "2015-06-04 17:13:28"
         },
         {
             "name": "iip-design/america-theme-extender",
@@ -526,15 +526,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "4.0.7",
+            "version": "5.0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/4.0.7"
+                "reference": "tags/5.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.4.0.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -643,6 +643,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/meta-box/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "2.7.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/2.7.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
