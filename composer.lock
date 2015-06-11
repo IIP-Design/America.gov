@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "44d6993e8ceee3fc54f5da1399908467",
+    "hash": "729771f2195838727ba886215a39e12a",
     "packages": [
         {
             "name": "composer/installers",
@@ -526,15 +526,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "5.0.4",
+            "version": "5.0.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/5.0.4"
+                "reference": "tags/5.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -566,15 +566,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.1.2",
+            "version": "4.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.1.2"
+                "reference": "tags/4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.1.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -726,15 +726,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.1.1",
+            "version": "2.2.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.1.1"
+                "reference": "tags/2.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
