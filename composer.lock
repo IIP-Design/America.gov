@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "73e734051ed244de870246e90bdfafb6",
+    "hash": "725ce7e8b8033ede936f4fd50761b1ec",
     "packages": [
         {
             "name": "composer/installers",
@@ -169,11 +169,11 @@
         },
         {
             "name": "iip-design/america-page-protection",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-page-protection.git",
-                "reference": "f09f4bfcd7e6b329715979e2799f584201376682"
+                "reference": "e1654a6c0e2173b79dcf4d1e41d029e6dd3d9cc1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -186,7 +186,7 @@
                 }
             ],
             "description": "Add password page protection to secured sites",
-            "time": "2015-06-23 16:33:06"
+            "time": "2015-06-24 19:53:33"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -771,7 +771,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "iip-design/america-theme-extender": 20,
-        "iip-design/america-page-protection": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
         "iipdesign/genesis": 20,

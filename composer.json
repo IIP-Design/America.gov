@@ -97,7 +97,7 @@
 	"wpackagist-plugin/query-monitor": "2.7.4",
         "iip-design/america": "2.7.5",
         "iip-design/america-theme-extender": "dev-master",
-        "iip-design/america-page-protection": "dev-master",
+        "iip-design/america-page-protection": "1.0.0",
         "iip-design/america-publication-post-type": "dev-master",
         "iipdesign/mailchimp-for-wordpress-pro": "dev-master",
         "iipdesign/genesis": "dev-master",
