@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "91f50d6267599b6566143edf08f43ec2",
+    "hash": "ed086b5a25df1206f9375f0f28e463cd",
     "packages": [
         {
             "name": "composer/installers",
@@ -724,6 +724,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-social-icons/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
             "name": "wpackagist-plugin/wordpress-mu-domain-mapping",
