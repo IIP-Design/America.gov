@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da5dfbb0aec2796f6bbae34bdc1d3b7b",
+    "hash": "91f50d6267599b6566143edf08f43ec2",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "2.7.5",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "f0397c7dc1951bc01345f7f406d131b45406c9f9"
+                "reference": "c8445f671c6d981ab3b943813fef41493ec3c359"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-06-19 20:51:31"
+            "time": "2015-06-29 19:06:58"
         },
         {
             "name": "iip-design/america-page-protection",
@@ -770,6 +770,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "iip-design/america": 20,
         "iip-design/america-theme-extender": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
