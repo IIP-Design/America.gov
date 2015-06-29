@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed086b5a25df1206f9375f0f28e463cd",
+    "hash": "eadca56491c7f649f71011d606cd9f63",
     "packages": [
         {
             "name": "composer/installers",
@@ -169,11 +169,11 @@
         },
         {
             "name": "iip-design/america-page-protection",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-page-protection.git",
-                "reference": "e1654a6c0e2173b79dcf4d1e41d029e6dd3d9cc1"
+                "reference": "e0e0ea49c2f817914cd34198cbaaa68aa29be7ef"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -186,7 +186,7 @@
                 }
             ],
             "description": "Add password page protection to secured sites",
-            "time": "2015-06-24 19:53:33"
+            "time": "2015-06-29 14:46:00"
         },
         {
             "name": "iip-design/america-publication-post-type",
