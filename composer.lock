@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7cd1b5ebc058179a03108d7303a1cd06",
+    "hash": "b2880b46a9f296db768f87fe70e33cfc",
     "packages": [
         {
             "name": "composer/installers",
@@ -547,15 +547,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "5.0.7",
+            "version": "5.0.8",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/5.0.7"
+                "reference": "tags/5.0.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.8.zip",
                 "reference": null,
                 "shasum": null
             },
