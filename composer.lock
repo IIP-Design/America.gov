@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da5dfbb0aec2796f6bbae34bdc1d3b7b",
+    "hash": "85de7e6b3458b72fddf323ffdf6025a1",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "2.7.5",
+            "version": "2.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "f0397c7dc1951bc01345f7f406d131b45406c9f9"
+                "reference": "d987aa11bed6fea4d23b001caf6324817143723b"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,15 +165,15 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-06-19 20:51:31"
+            "time": "2015-07-07 14:03:27"
         },
         {
             "name": "iip-design/america-page-protection",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-page-protection.git",
-                "reference": "e0e0ea49c2f817914cd34198cbaaa68aa29be7ef"
+                "reference": "0ff2fdd57833b91673c1d9b288138ceb26e5d8a6"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -186,7 +186,7 @@
                 }
             ],
             "description": "Add password page protection to secured sites",
-            "time": "2015-06-29 14:46:00"
+            "time": "2015-07-21 17:43:46"
         },
         {
             "name": "iip-design/america-publication-post-type",
@@ -547,15 +547,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "5.0.7",
+            "version": "5.0.12",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/5.0.7"
+                "reference": "tags/5.0.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.12.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -604,6 +604,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/gathercontent-import",
+            "version": "2.6.35",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/gathercontent-import/",
+                "reference": "tags/2.6.35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gathercontent-import.2.6.35.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gathercontent-import/"
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
@@ -726,6 +746,26 @@
             "homepage": "https://wordpress.org/plugins/simple-social-icons/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-mu-domain-mapping",
             "version": "0.5.5.1",
             "source": {
@@ -747,15 +787,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.2.1",
+            "version": "2.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.2.1"
+                "reference": "tags/2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.2.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.zip",
                 "reference": null,
                 "shasum": null
             },
