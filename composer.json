@@ -5,10 +5,10 @@
             "package": {
                 "name": "wordpress",
                 "type": "webroot",
-                "version": "4.2.3",
+                "version": "4.2.4",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.2.3.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.2.4.zip"
                 },
                 "require" : {
                     "fancyguy/webroot-installer": "1.1.0"
@@ -81,12 +81,12 @@
         }
     ],
     "require": {
-        "wordpress": "4.2.3",
+        "wordpress": "4.2.4",
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "0.2.4",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
         "wpackagist-plugin/autoptimize": "1.9.4",
-        "wpackagist-plugin/meta-box": "4.5.5",
+        "wpackagist-plugin/meta-box": "4.5.6",
         "wpackagist-plugin/addthis": "5.0.12",
         "wpackagist-plugin/wordpress-seo": "2.3.2",
         "wpackagist-plugin/google-apps-login": "2.8.3",
