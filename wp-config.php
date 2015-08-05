@@ -68,6 +68,11 @@ $table_prefix  = 'wp_';
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
+if (getenv('AWS_ENV') == 'STARBUCK') {
+	define('AWS_ENV', 'aws_env');
+} else {
+	define('AWS_ENV', '');
+}
 
 if (getenv('DEV') == 'True') {
 	define('WP_DEBUG', true);
