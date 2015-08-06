@@ -69,9 +69,9 @@ $table_prefix  = 'wp_';
  * in their development environments.
  */
 if (getenv('AWS_ENV') == 'STARBUCK') {
-	define('AWS_ENV', 'aws_env');
+	define('AWS_ENV', 'STARBUCK');
 } else {
-	define('AWS_ENV', '');
+	define('AWS_ENV', 'other');
 }
 
 if (getenv('DEV') == 'True') {
