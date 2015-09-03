@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3d1af94faf1aef43957aaf327ff67e4",
+    "hash": "c6ef50b704aa9b45f0095eff80ee7e52",
     "packages": [
         {
             "name": "composer/installers",
@@ -232,11 +232,11 @@
         },
         {
             "name": "iipdesign/genesis",
-            "version": "2.1.3",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/genesis-framework.git",
-                "reference": "2c85831c5ebf8af651fd7ab29e3bc6681619fca7"
+                "reference": "098d4c19fad9f47f6719acdc06c3f9322dedcadc"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -252,7 +252,7 @@
                 }
             ],
             "description": "The Genesis Framework package for America.gov",
-            "time": "2015-08-14 12:14:19"
+            "time": "2015-09-03 18:57:24"
         },
         {
             "name": "iipdesign/mailchimp-for-wordpress-pro",
