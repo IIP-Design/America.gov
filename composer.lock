@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b95d3548a668bc9f46efef2f9e66cfff",
+    "hash": "d3d1af94faf1aef43957aaf327ff67e4",
     "packages": [
         {
             "name": "composer/installers",
@@ -533,10 +533,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.2.4",
+            "version": "4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.2.4.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -547,15 +547,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "5.0.12",
+            "version": "5.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/5.0.12"
+                "reference": "tags/5.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -704,6 +704,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/query-monitor/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "2.3.16",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/2.3.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.2.3.16.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
