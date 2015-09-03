@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b95d3548a668bc9f46efef2f9e66cfff",
+    "hash": "c6ef50b704aa9b45f0095eff80ee7e52",
     "packages": [
         {
             "name": "composer/installers",
@@ -232,11 +232,11 @@
         },
         {
             "name": "iipdesign/genesis",
-            "version": "2.1.3",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:iipdesign/genesis-framework.git",
-                "reference": "2c85831c5ebf8af651fd7ab29e3bc6681619fca7"
+                "reference": "098d4c19fad9f47f6719acdc06c3f9322dedcadc"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -252,7 +252,7 @@
                 }
             ],
             "description": "The Genesis Framework package for America.gov",
-            "time": "2015-08-14 12:14:19"
+            "time": "2015-09-03 18:57:24"
         },
         {
             "name": "iipdesign/mailchimp-for-wordpress-pro",
@@ -533,10 +533,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.2.4",
+            "version": "4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.2.4.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -547,15 +547,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "5.0.12",
+            "version": "5.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/5.0.12"
+                "reference": "tags/5.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.5.0.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -704,6 +704,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/query-monitor/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "2.3.16",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/2.3.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.2.3.16.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
