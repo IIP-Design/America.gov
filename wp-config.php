@@ -74,13 +74,14 @@ if (getenv('AWS_ENV') == 'STARBUCK') {
 	define('AWS_ENV', 'other');
 }
 
-if (getenv('DEV') == 'True') {
+/*if (getenv('DEV') == 'True') {
 	define('WP_DEBUG', true);
 	define('WP_DEBUG_LOG', true);
 } else {
 	define('WP_DEBUG', false);
-}
+}*/
 
+define('WP_DEBUG', false);
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
 
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
