@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6ef50b704aa9b45f0095eff80ee7e52",
+    "hash": "43ea3fb2e43aca0549a4294e92240f8f",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "iip-design/america",
-            "version": "2.9",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-theme.git",
-                "reference": "8f7a55aaba3c0acc3886243e49798feef09193d6"
+                "reference": "9be6e32e0de096280c92a1c8269745016d4f141d"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-08-14 12:19:49"
+            "time": "2015-09-08 14:45:43"
         },
         {
             "name": "iip-design/america-page-protection",
@@ -606,26 +606,6 @@
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
-            "name": "wpackagist-plugin/gathercontent-import",
-            "version": "2.6.42",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/gathercontent-import/",
-                "reference": "tags/2.6.42"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gathercontent-import.2.6.42.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/gathercontent-import/"
-        },
-        {
             "name": "wpackagist-plugin/google-apps-login",
             "version": "2.8.3",
             "source": {
@@ -830,6 +810,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "iip-design/america": 20,
         "iip-design/america-theme-extender": 20,
         "iip-design/america-publication-post-type": 20,
         "iipdesign/mailchimp-for-wordpress-pro": 20,
