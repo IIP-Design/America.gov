@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d02e49a8b39ad429fef6112c7c6a3507",
+    "hash": "ba926c69f1902d290fa2703100674f52",
     "packages": [
         {
             "name": "composer/installers",
@@ -587,15 +587,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.2.2",
+            "version": "4.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.2.2"
+                "reference": "tags/4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -647,15 +647,15 @@
         },
         {
             "name": "wpackagist-plugin/meta-box",
-            "version": "4.5.6",
+            "version": "4.5.7",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/meta-box/",
-                "reference": "tags/4.5.6"
+                "reference": "tags/4.5.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/meta-box.4.5.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/meta-box.4.5.7.zip",
                 "reference": null,
                 "shasum": null
             },
