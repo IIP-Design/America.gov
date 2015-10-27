@@ -25,7 +25,7 @@
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/password-protected.git"
+            "url": "git@github.com:USStateDept/password-protected.git"
         },
         {
             "type": "git",
@@ -41,7 +41,7 @@
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/genesis-framework.git"
+            "url": "git@github.com:USStateDept/genesis-framework.git"
         },
         {
             "type": "git",
@@ -49,19 +49,19 @@
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/wpml-cms-nav.git"
+            "url": "git@github.com:USStateDept/wpml-cms-nav.git"
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/wpml-media-translation.git"
+            "url": "git@github.com:USStateDept/wpml-media.git"
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/wpml-sticky-links.git"
+            "url": "git@github.com:USStateDept/wpml-sticky-links.git"
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/wpml-string-translation.git"
+            "url": "git@github.com:USStateDept/wpml-string-translation.git"
         },
         {
             "type": "git",
@@ -69,15 +69,15 @@
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/wpml-translation-management.git"
+            "url": "git@github.com:USStateDept/wpml-translation-management.git"
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/wpml-xliff.git"
+            "url": "git@github.com:USStateDept/wpml-xliff.git"
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/mailchimp-for-wordpress-pro.git"
+            "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git"
         }
     ],
     "require": {
@@ -101,17 +101,17 @@
         "iip-design/america-theme-extender": "dev-master",
         "iip-design/america-page-protection": "1.0.2",
         "iip-design/america-publication-post-type": "dev-master",
-        "iipdesign/mailchimp-for-wordpress-pro": "dev-master",
+        "usstatedept/mailchimp-for-wordpress-pro": "dev-master",
         "iipdesign/genesis": "2.2.2",
         "iipdesign/password-protected": "dev-master",
         "iipdesign/sitepress-multilingual-cms": "3.1.9.7",
-        "iipdesign/wpml-cms-nav": "dev-master",
-        "iipdesign/wpml-media": "dev-master",
-        "iipdesign/wpml-sticky-links": "dev-master",
-        "iipdesign/wpml-string-translation": "2.1.4",
+        "usstatedept/wpml-cms-nav": "dev-master",
+        "usstatedept/wpml-media": "dev-master",
+        "usstatedept/wpml-sticky-links": "dev-master",
+        "usstatedept/wpml-string-translation": "dev-master",
         "iipdesign/wpml-theme-tester": "dev-master",
-        "iipdesign/wpml-translation-management": "dev-master",
-        "iipdesign/wpml-xliff": "dev-master"
+        "usstatedept/wpml-translation-management": "dev-master",
+        "usstatedept/wpml-xliff": "dev-master"
     },
     "extra": {
         "dropin-paths": {

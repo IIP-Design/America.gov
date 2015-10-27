@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6d7bfc07947f15e3152f17bf88ba5edf",
+    "hash": "6ea3f36b6b4192157be9e456353f3760",
     "packages": [
         {
             "name": "composer/installers",
@@ -255,35 +255,11 @@
             "time": "2015-09-14 17:00:36"
         },
         {
-            "name": "iipdesign/mailchimp-for-wordpress-pro",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/mailchimp-for-wordpress-pro.git",
-                "reference": "16a821b7bd5d13f2af6704f82d9ffeb3497759c3"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "The best MailChimp plugin for WordPress.",
-            "time": "2015-03-20 17:43:28"
-        },
-        {
             "name": "iipdesign/password-protected",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:iipdesign/password-protected.git",
+                "url": "git@github.com:USStateDept/password-protected.git",
                 "reference": "db70359408f5f11b9de84332a64ab9079e5b0a3d"
             },
             "require": {
@@ -326,102 +302,6 @@
             "time": "2015-06-03 14:30:06"
         },
         {
-            "name": "iipdesign/wpml-cms-nav",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/wpml-cms-nav.git",
-                "reference": "d92b5a52a2d21553f4f1fd50080db9938833de4c"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "The CMS Navigation plugin adds navigational elements which you can use when building the site. This includes a breadcrumbs trail, drop-down menus and sidebar navigation.",
-            "time": "2015-04-03 18:03:35"
-        },
-        {
-            "name": "iipdesign/wpml-media",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/wpml-media-translation.git",
-                "reference": "e36e3c87fb7e04e7ebba8a835188faeda1ac34ce"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "This plugin allows using the WordPress Gallery in different languages. You can control which images will display for each language.",
-            "time": "2015-04-03 18:02:41"
-        },
-        {
-            "name": "iipdesign/wpml-sticky-links",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/wpml-sticky-links.git",
-                "reference": "9b562cc09aef738d935a8cd4ede85776d470ea96"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "The Sticky Links plugin keeps internal links from ever breaking. It automatically tracks linked pages in your site and keeps all incoming links up-to-date. When you change permalink structure, hierarchy and even page slugs, all incoming links update immediately.",
-            "time": "2015-04-03 18:01:42"
-        },
-        {
-            "name": "iipdesign/wpml-string-translation",
-            "version": "2.1.4",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/wpml-string-translation.git",
-                "reference": "070a94a45cdcf2b37161f78974e1b1fa7c580fc5"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "The String Translation plugin allows to translate interface strings directly from within WordPress without having to use .mo files. \n\nThe String Translation plugin allows more than just translating static texts. It also lets you translate user-generated texts that are outside of posts and pages. For example, the tagline and SEO data.",
-            "time": "2015-06-03 14:31:31"
-        },
-        {
             "name": "iipdesign/wpml-theme-tester",
             "version": "dev-master",
             "source": {
@@ -443,54 +323,6 @@
                 }
             ],
             "time": "2015-03-11 16:35:02"
-        },
-        {
-            "name": "iipdesign/wpml-translation-management",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/wpml-translation-management.git",
-                "reference": "7114e79d5acbdcac4309875d289d06d5e220e20a"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "When your clients receive their newly created multilingual site, your work ends and their work begins. The Translation Management plugin helps site admins manage their translation work. They will turn normal users into translators, send jobs to them and track progress of the site’s translation status.",
-            "time": "2015-04-03 17:58:12"
-        },
-        {
-            "name": "iipdesign/wpml-xliff",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/wpml-xliff.git",
-                "reference": "f70bddf46add3acafc9d0e6467401f352a223aba"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "Lets you send content to translation services or freelance translators using the industry-standard XLIFF interface. The XLIFF interface extends WPML’s Translation Dashboard allowing you to send documents and receive them in XLIFF format.",
-            "time": "2015-04-03 17:55:27"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -530,6 +362,120 @@
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
             "time": "2015-01-04 10:24:12"
+        },
+        {
+            "name": "usstatedept/mailchimp-for-wordpress-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git",
+                "reference": "fd5fdc246f4c7ede1360aeab8e9b4336ae0b35d6"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The best MailChimp plugin for WordPress.",
+            "time": "2015-10-27 18:12:01"
+        },
+        {
+            "name": "usstatedept/wpml-cms-nav",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wpml-cms-nav.git",
+                "reference": "ca696aee1bfd7a6a024a0f549b4bef581a51dea7"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Adds CMS navigation elements to sites built with WPML",
+            "time": "2015-10-06 16:45:24"
+        },
+        {
+            "name": "usstatedept/wpml-media",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wpml-media.git",
+                "reference": "49ec93e629467447059b276aa3642f0d33c71afc"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Add multilingual support for Media files",
+            "time": "2015-10-06 16:50:44"
+        },
+        {
+            "name": "usstatedept/wpml-sticky-links",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wpml-sticky-links.git",
+                "reference": "dcead3a9afbf5c308d88676a00d867ce25f94bc2"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Prevents internal links from ever breaking",
+            "time": "2015-10-06 17:01:24"
+        },
+        {
+            "name": "usstatedept/wpml-string-translation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wpml-string-translation.git",
+                "reference": "9568b008dc2f7d4412a872209f8b71770d36d4d3"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Adds theme and plugins localization capabilities to WPML",
+            "time": "2015-10-06 17:09:40"
+        },
+        {
+            "name": "usstatedept/wpml-translation-management",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wpml-translation-management.git",
+                "reference": "e56d6ca78ee1b43bcdbbc8047ba26a1ec4330d39"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Add a complete translation process for WPML",
+            "time": "2015-10-06 17:12:45"
+        },
+        {
+            "name": "usstatedept/wpml-xliff",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wpml-xliff.git",
+                "reference": "013663829a75598e6a9e46ec4bc8d8656a3388eb"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Import and Export XLIFF files for translation",
+            "time": "2015-10-06 17:16:27"
         },
         {
             "name": "wordpress",
@@ -812,14 +758,15 @@
     "stability-flags": {
         "iip-design/america-theme-extender": 20,
         "iip-design/america-publication-post-type": 20,
-        "iipdesign/mailchimp-for-wordpress-pro": 20,
+        "usstatedept/mailchimp-for-wordpress-pro": 20,
         "iipdesign/password-protected": 20,
-        "iipdesign/wpml-cms-nav": 20,
-        "iipdesign/wpml-media": 20,
-        "iipdesign/wpml-sticky-links": 20,
+        "usstatedept/wpml-cms-nav": 20,
+        "usstatedept/wpml-media": 20,
+        "usstatedept/wpml-sticky-links": 20,
+        "usstatedept/wpml-string-translation": 20,
         "iipdesign/wpml-theme-tester": 20,
-        "iipdesign/wpml-translation-management": 20,
-        "iipdesign/wpml-xliff": 20
+        "usstatedept/wpml-translation-management": 20,
+        "usstatedept/wpml-xliff": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
