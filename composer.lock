@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6ea3f36b6b4192157be9e456353f3760",
+    "hash": "dd0fd15857a94b7ce4b758fab8889744",
     "packages": [
         {
             "name": "composer/installers",
@@ -278,53 +278,6 @@
             "time": "2015-07-30 14:52:44"
         },
         {
-            "name": "iipdesign/sitepress-multilingual-cms",
-            "version": "3.1.9.7",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/wpml-sitepress-multilingual-cms.git",
-                "reference": "efd34eddc8abdf5ecb804efbdf391eccc7d76049"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-06-03 14:30:06"
-        },
-        {
-            "name": "iipdesign/wpml-theme-tester",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:iipdesign/wpml-theme-tester.git",
-                "reference": "dfbd2eca324cab064af8e5c5c0bcb0f72cc50301"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "time": "2015-03-11 16:35:02"
-        },
-        {
             "name": "koodimonni/composer-dropin-installer",
             "version": "0.2.4",
             "source": {
@@ -386,6 +339,30 @@
             ],
             "description": "The best MailChimp plugin for WordPress.",
             "time": "2015-10-27 18:12:01"
+        },
+        {
+            "name": "usstatedept/sitepress-multilingual-cms",
+            "version": "3.1.9.7",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
+                "reference": "a0a199c2d963ec1c37d2c84a4808ab406b62be3e"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
+            "time": "2015-10-30 18:15:41"
         },
         {
             "name": "usstatedept/wpml-cms-nav",
@@ -764,7 +741,6 @@
         "usstatedept/wpml-media": 20,
         "usstatedept/wpml-sticky-links": 20,
         "usstatedept/wpml-string-translation": 20,
-        "iipdesign/wpml-theme-tester": 20,
         "usstatedept/wpml-translation-management": 20,
         "usstatedept/wpml-xliff": 20
     },

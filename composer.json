@@ -45,7 +45,7 @@
         },
         {
             "type": "git",
-            "url": "git@bitbucket.org:iipdesign/wpml-sitepress-multilingual-cms.git"
+            "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git"
         },
         {
             "type": "git",
@@ -62,10 +62,6 @@
         {
             "type": "git",
             "url": "git@github.com:USStateDept/wpml-string-translation.git"
-        },
-        {
-            "type": "git",
-            "url": "git@bitbucket.org:iipdesign/wpml-theme-tester.git"
         },
         {
             "type": "git",
@@ -104,12 +100,11 @@
         "usstatedept/mailchimp-for-wordpress-pro": "dev-master",
         "iipdesign/genesis": "2.2.2",
         "iipdesign/password-protected": "dev-master",
-        "iipdesign/sitepress-multilingual-cms": "3.1.9.7",
+        "usstatedept/sitepress-multilingual-cms": "3.1.9.7",
         "usstatedept/wpml-cms-nav": "dev-master",
         "usstatedept/wpml-media": "dev-master",
         "usstatedept/wpml-sticky-links": "dev-master",
         "usstatedept/wpml-string-translation": "dev-master",
-        "iipdesign/wpml-theme-tester": "dev-master",
         "usstatedept/wpml-translation-management": "dev-master",
         "usstatedept/wpml-xliff": "dev-master"
     },
