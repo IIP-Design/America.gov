@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dd0fd15857a94b7ce4b758fab8889744",
+    "hash": "9c651026949fb649634a80d3041a069c",
     "packages": [
         {
             "name": "composer/installers",
@@ -317,28 +317,19 @@
             "time": "2015-01-04 10:24:12"
         },
         {
-            "name": "usstatedept/mailchimp-for-wordpress-pro",
-            "version": "dev-master",
+            "name": "usstatedept/mailchimp-for-wp-pro",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git",
-                "reference": "fd5fdc246f4c7ede1360aeab8e9b4336ae0b35d6"
+                "reference": "a89ec9c9d0d85b88804ac3f983c3b5a46610c2a4"
             },
             "require": {
-                "composer/installers": "v1.0.21"
+                "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Nathan Kleekamp",
-                    "email": "nkleekamp@gmail.com"
-                }
-            ],
-            "description": "The best MailChimp plugin for WordPress.",
-            "time": "2015-10-27 18:12:01"
+            "description": " ",
+            "time": "2015-10-06 12:40:51"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -735,7 +726,6 @@
     "stability-flags": {
         "iip-design/america-theme-extender": 20,
         "iip-design/america-publication-post-type": 20,
-        "usstatedept/mailchimp-for-wordpress-pro": 20,
         "iipdesign/password-protected": 20,
         "usstatedept/wpml-cms-nav": 20,
         "usstatedept/wpml-media": 20,
