@@ -21,7 +21,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:IIP-Design/America-theme.git"
+            "url": "git@github.com:USStateDept/America-theme.git"
         },
         {
             "type": "git",
@@ -29,15 +29,15 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:IIP-Design/america-page-protection.git"
+            "url": "git@github.com:USStateDept/america-page-protection.git"
         },
         {
             "type": "git",
-            "url": "git@github.com:IIP-Design/america-publication-post-type.git"
+            "url": "git@github.com:USStateDept/america-publication-post-type.git"
         },
          {
             "type": "git",
-            "url": "git@github.com:IIP-Design/america-theme-extender.git"
+            "url": "git@github.com:USStateDept/america-theme-extender.git"
         },
         {
             "type": "git",
@@ -86,10 +86,10 @@
         "wpackagist-plugin/gravitate-event-tracking": "1.4.1",
   	    "wpackagist-plugin/contact-form-7": "4.3.1",
         "wpackagist-plugin/redirection": "2.4.3",
-        "iip-design/america": "2.11.3",
-        "iip-design/america-theme-extender": "dev-master",
-        "iip-design/america-page-protection": "1.0.2",
-        "iip-design/america-publication-post-type": "dev-master",
+        "usstatedept/america": "2.11.4",
+        "usstatedept/america-theme-extender": "1.2.1",
+        "usstatedept/america-page-protection": "1.0.3",
+        "usstatedept/america-publication-post-type": "0.0.2",
         "usstatedept/mailchimp-for-wp-pro": "2.4.2",
         "usstatedept/genesis": "2.2.3",
         "usstatedept/password-protected": "dev-master",
