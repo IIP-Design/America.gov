@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ca40e89be03b4c73512e76f01c740f4a",
-    "content-hash": "89de53cb2aa20c17ecc576497b2d753b",
+    "hash": "e6eb1bc8823400fb37873767b96716f4",
+    "content-hash": "b45b90ac56fe33dfee8abd67d67c8987",
     "packages": [
         {
             "name": "composer/installers",
@@ -358,21 +358,18 @@
         },
         {
             "name": "usstatedept/wpml-cms-nav",
-            "version": "1.4.11",
+            "version": "1.4.14",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-cms-nav.git",
-                "reference": "850370d89fc22ac0f6e2fa417d6e5866713ad4c3"
+                "reference": "acf9f4a4d8cf9b533083ecedb51451c907f47162"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "license": [
-                "GPL"
-            ],
-            "description": "The CMS Navigation plugin adds navigational elements which you can use when building the site. This includes a breadcrumbs trail, drop-down menus and sidebar navigation.",
-            "time": "2015-11-14 02:10:17"
+            "description": "Adds CMS navigation elements to sites built with WPML",
+            "time": "2015-12-08 18:44:57"
         },
         {
             "name": "usstatedept/wpml-media",
