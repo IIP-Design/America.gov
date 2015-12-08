@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e6eb1bc8823400fb37873767b96716f4",
-    "content-hash": "b45b90ac56fe33dfee8abd67d67c8987",
+    "hash": "0e519c02f2a72a4eb35bb33392b6f645",
+    "content-hash": "96e24289b32eb539bb46610ea8887190",
     "packages": [
         {
             "name": "composer/installers",
@@ -310,29 +310,6 @@
             "time": "2015-10-06 12:40:51"
         },
         {
-            "name": "usstatedept/password-protected",
-            "version": "2.0.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/password-protected.git",
-                "reference": "46be37d11ea63606a7b78bcd1b818dc12e31913a"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL v2.0"
-            ],
-            "authors": [
-                {
-                    "name": "husobj"
-                }
-            ],
-            "description": "A fork of password-protected",
-            "time": "2015-12-08 18:05:10"
-        },
-        {
             "name": "usstatedept/sitepress-multilingual-cms",
             "version": "3.3.1",
             "source": {
@@ -546,6 +523,26 @@
             "homepage": "https://wordpress.org/plugins/gravitate-event-tracking/"
         },
         {
+            "name": "wpackagist-plugin/password-protected",
+            "version": "2.0.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/password-protected/",
+                "reference": "tags/2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/password-protected.2.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/password-protected/"
+        },
+        {
             "name": "wpackagist-plugin/redirection",
             "version": "2.4.3",
             "source": {
@@ -627,15 +624,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.0.5",
+            "version": "3.0.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.0.5"
+                "reference": "tags/3.0.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.6.zip",
                 "reference": null,
                 "shasum": null
             },

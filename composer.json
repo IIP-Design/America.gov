@@ -25,10 +25,6 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:USStateDept/password-protected.git"
-        },
-        {
-            "type": "git",
             "url": "git@github.com:USStateDept/america-page-protection.git"
         },
         {
@@ -79,20 +75,20 @@
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
         "wpackagist-plugin/autoptimize": "1.9.4",
         "wpackagist-plugin/addthis": "5.2.1",
-        "wpackagist-plugin/wordpress-seo": "3.0.5",
+        "wpackagist-plugin/wordpress-seo": "3.0.6",
         "wpackagist-plugin/google-apps-login": "2.8.15",
       	"wpackagist-plugin/regenerate-thumbnails": "2.2.5",
       	"wpackagist-plugin/simple-social-icons": "1.0.14",
         "wpackagist-plugin/gravitate-event-tracking": "1.4.1",
   	    "wpackagist-plugin/contact-form-7": "4.3.1",
         "wpackagist-plugin/redirection": "2.4.3",
+        "wpackagist-plugin/password-protected": "2.0.2",
         "usstatedept/america": "2.11.4",
         "usstatedept/america-theme-extender": "1.2.1",
         "usstatedept/america-page-protection": "1.0.3",
         "usstatedept/america-publication-post-type": "0.0.2",
         "usstatedept/mailchimp-for-wp-pro": "2.4.2",
         "usstatedept/genesis": "2.2.3",
-        "usstatedept/password-protected": "2.0.2",
         "usstatedept/sitepress-multilingual-cms": "3.3.1",
         "usstatedept/wpml-cms-nav": "1.4.14",
         "usstatedept/wpml-media": "2.1.15",
