@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fe490e639534d3dd2ad3de42a991baa6",
-    "content-hash": "87d7d1180406149be607447001be460a",
+    "hash": "ca40e89be03b4c73512e76f01c740f4a",
+    "content-hash": "89de53cb2aa20c17ecc576497b2d753b",
     "packages": [
         {
             "name": "composer/installers",
@@ -311,11 +311,11 @@
         },
         {
             "name": "usstatedept/password-protected",
-            "version": "dev-master",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/password-protected.git",
-                "reference": "cf616433364f3a698b9426b1d83fa5233195a7fb"
+                "reference": "46be37d11ea63606a7b78bcd1b818dc12e31913a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -330,15 +330,15 @@
                 }
             ],
             "description": "A fork of password-protected",
-            "time": "2015-12-03 19:37:46"
+            "time": "2015-12-08 18:05:10"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
-            "version": "3.3",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
-                "reference": "4c3379d35b0dccebfb1cbe423bde59ff1470b2e7"
+                "reference": "95a1fee5c9463aca44025b1e23de421cd854d535"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -354,7 +354,7 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-11-19 16:09:58"
+            "time": "2015-12-03 20:10:07"
         },
         {
             "name": "usstatedept/wpml-cms-nav",
@@ -376,7 +376,7 @@
         },
         {
             "name": "usstatedept/wpml-media",
-            "version": "dev-master",
+            "version": "2.1.15",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-media.git",
@@ -391,7 +391,7 @@
         },
         {
             "name": "usstatedept/wpml-sticky-links",
-            "version": "dev-master",
+            "version": "1.3.14",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-sticky-links.git",
@@ -406,7 +406,7 @@
         },
         {
             "name": "usstatedept/wpml-string-translation",
-            "version": "dev-master",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-string-translation.git",
@@ -421,7 +421,7 @@
         },
         {
             "name": "usstatedept/wpml-xliff",
-            "version": "dev-master",
+            "version": "0.9.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-xliff.git",
@@ -652,13 +652,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "usstatedept/password-protected": 20,
-        "usstatedept/wpml-media": 20,
-        "usstatedept/wpml-sticky-links": 20,
-        "usstatedept/wpml-string-translation": 20,
-        "usstatedept/wpml-xliff": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
