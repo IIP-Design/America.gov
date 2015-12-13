@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e519c02f2a72a4eb35bb33392b6f645",
-    "content-hash": "96e24289b32eb539bb46610ea8887190",
+    "hash": "f9e0dc78587ea2b4354550acb47d6557",
     "packages": [
         {
             "name": "composer/installers",
@@ -311,11 +310,11 @@
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
-            "version": "3.3.1",
+            "version": "dev-wpml_switcher_1221_1299_1362",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
-                "reference": "95a1fee5c9463aca44025b1e23de421cd854d535"
+                "reference": "b59c8bc2560a3e1e962924f7f5ad213f2ef407d8"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -331,7 +330,7 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-12-03 20:10:07"
+            "time": "2015-12-13 19:05:08"
         },
         {
             "name": "usstatedept/wpml-cms-nav",
@@ -646,7 +645,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "usstatedept/sitepress-multilingual-cms": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
