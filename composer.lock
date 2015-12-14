@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f9e0dc78587ea2b4354550acb47d6557",
+    "hash": "2ea4990cd24be53686137c4b6686fe6f",
+    "content-hash": "8c9beb05d4821f01e40795111df5c651",
     "packages": [
         {
             "name": "composer/installers",
@@ -314,7 +315,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
-                "reference": "b59c8bc2560a3e1e962924f7f5ad213f2ef407d8"
+                "reference": "efe5bc6bf0c6678ad5c083c9defa9ef97ad63723"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -330,7 +331,28 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-12-13 19:05:08"
+            "time": "2015-12-13 20:11:41"
+        },
+        {
+            "name": "usstatedept/wp-auto-login-and-custom-email",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wp-auto-login-and-custom-email.git",
+                "reference": "972520ddf989aa2b62ba59a72f3547bd3bfcfe22"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "A simple WordPress plugin for single sign-on based on the user's email address.",
+            "time": "2015-11-13 23:19:55"
         },
         {
             "name": "usstatedept/wpml-cms-nav",
@@ -391,21 +413,6 @@
             "type": "wordpress-plugin",
             "description": "Adds theme and plugins localization capabilities to WPML",
             "time": "2015-12-03 21:55:05"
-        },
-        {
-            "name": "usstatedept/wpml-xliff",
-            "version": "0.9.7",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/wpml-xliff.git",
-                "reference": "013663829a75598e6a9e46ec4bc8d8656a3388eb"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "description": "Import and Export XLIFF files for translation",
-            "time": "2015-10-06 17:16:27"
         },
         {
             "name": "wordpress",
