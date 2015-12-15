@@ -84,6 +84,7 @@
       	"wpackagist-plugin/regenerate-thumbnails": "2.2.5",
       	"wpackagist-plugin/simple-social-icons": "1.0.14",
         "wpackagist-plugin/gravitate-event-tracking": "1.4.1",
+        "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
   	    "wpackagist-plugin/contact-form-7": "4.3.1",
         "wpackagist-plugin/redirection": "2.4.3",
         "wpackagist-plugin/password-protected": "2.0.2",
