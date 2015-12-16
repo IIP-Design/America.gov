@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "36741924e519bcde101def69a63c0be1",
-    "content-hash": "d71379ce07913584358a752248ba2c7c",
+    "hash": "d7832b72c670c8bf7e50d47c2a328e51",
+    "content-hash": "485d5c3574584ac9297af19b8319f3d6",
     "packages": [
         {
             "name": "composer/installers",
@@ -447,6 +447,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/addthis/"
+        },
+        {
+            "name": "wpackagist-plugin/amazon-ses-and-dkim-mailer",
+            "version": "1.7",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/amazon-ses-and-dkim-mailer/",
+                "reference": "tags/1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-ses-and-dkim-mailer.1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amazon-ses-and-dkim-mailer/"
         },
         {
             "name": "wpackagist-plugin/autoptimize",
