@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3366b2a8899fac48d4d0c1a204e8cbc9",
-    "content-hash": "0b367f459b074f27b190f00b53ff0d24",
+    "hash": "d7832b72c670c8bf7e50d47c2a328e51",
+    "content-hash": "485d5c3574584ac9297af19b8319f3d6",
     "packages": [
         {
             "name": "composer/installers",
@@ -334,12 +334,12 @@
             "time": "2015-12-14 15:36:20"
         },
         {
-            "name": "usstatedept/wp-auto-login-and-custom-email",
-            "version": "0.1.1",
+            "name": "usstatedept/wp-hide-login-form",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:USStateDept/wp-auto-login-and-custom-email.git",
-                "reference": "972520ddf989aa2b62ba59a72f3547bd3bfcfe22"
+                "url": "git@github.com:USStateDept/wp-hide-login-form.git",
+                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -351,8 +351,8 @@
                     "email": "gustassj@america.gov"
                 }
             ],
-            "description": "A simple WordPress plugin for single sign-on based on the user's email address.",
-            "time": "2015-11-13 23:19:55"
+            "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
+            "time": "2015-12-16 16:18:36"
         },
         {
             "name": "usstatedept/wpml-cms-nav",
