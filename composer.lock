@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d7832b72c670c8bf7e50d47c2a328e51",
-    "content-hash": "485d5c3574584ac9297af19b8319f3d6",
+    "hash": "8667f993b2955f6b3d9688df3d360582",
+    "content-hash": "5c9a7507b49daad336d5100133879164",
     "packages": [
         {
             "name": "composer/installers",
@@ -185,11 +185,11 @@
         },
         {
             "name": "usstatedept/america",
-            "version": "2.11.4",
+            "version": "2.12",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "63299d1c8f8c62c99ab509665d532b8f0f8f2853"
+                "reference": "4b30bc9be858945deb1f0bad0101b3836f20dc1f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -205,7 +205,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2015-12-07 21:44:38"
+            "time": "2015-12-30 15:56:58"
         },
         {
             "name": "usstatedept/america-page-protection",
@@ -272,19 +272,16 @@
         },
         {
             "name": "usstatedept/genesis",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/genesis-framework.git",
-                "reference": "41a9c9d331a1744891d94c35313e3978379420d9"
+                "reference": "97f6829cebc400ff2e848ad946fad7242a492b42"
             },
             "require": {
                 "composer/installers": "v1.0.21"
             },
             "type": "wordpress-theme",
-            "license": [
-                "GPL v2.0"
-            ],
             "authors": [
                 {
                     "name": "Studiopress",
@@ -292,7 +289,7 @@
                 }
             ],
             "description": "The Genesis Framework package for America.gov",
-            "time": "2015-12-03 17:22:29"
+            "time": "2015-12-16 20:46:17"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
@@ -416,10 +413,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.3.1",
+            "version": "4.4",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.3.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.4.zip",
                 "reference": null,
                 "shasum": null
             },
