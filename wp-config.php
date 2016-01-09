@@ -2,13 +2,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', getenv('AMGOV_DB_NAME'));
+define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', getenv('AMGOV_DB_USER'));
+define('DB_USER', 'wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', getenv('AMGOV_DB_PASSWORD'));
+define('DB_PASSWORD', 'wordpress');
 
 /** MySQL hostname */
 define('DB_HOST', getenv('AMGOV_DB_HOST'));
@@ -18,6 +18,16 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+/** S3 Bucket definition for the S3 Uploads plugin */
+define( 'S3_UPLOADS_BUCKET', 'devamgovstatic' );
+
+/** S3 Key for S3 Uploads plugin */
+define( 'S3_UPLOADS_KEY', 'AKIAITIPPTY5X4SN5VTQ' );
+
+/** S3 Secret Key for S3 Uploads plugin */
+define( 'S3_UPLOADS_SECRET', 'Qh+c+MNkV5gkIcj6drYllGEBDa8CC2OBF3tWT9OC' );
+
 
 /* Wordpress Salts */
 define('AUTH_KEY',         getenv('AMGOV_AUTH_KEY'));
