@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "950f396fde3eb37d493a37fa0c3e051d",
-    "content-hash": "69867ae6c753768880fe361f5c4df1de",
+    "hash": "9811fba0ef336b1a5753dac93f6020b8",
+    "content-hash": "9dc380e5d959ffa10b156778f344caae",
     "packages": [
         {
             "name": "composer/installers",
@@ -182,6 +182,21 @@
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
             "time": "2015-01-04 10:24:12"
+        },
+        {
+            "name": "usstatedept/advanced-custom-fields",
+            "version": "5.3.2.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/advanced-custom-fields.git",
+                "reference": "b71152c79368d4240e734c9371413b1889e77b89"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "description": "Advanced Custom Fields",
+            "time": "2015-12-16 18:06:07"
         },
         {
             "name": "usstatedept/america",
