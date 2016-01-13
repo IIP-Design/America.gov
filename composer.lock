@@ -4,13 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-<<<<<<< 0f0f4d0f3fd4e3b2e4a234dfac786b303c9bcd57
-    "hash": "9811fba0ef336b1a5753dac93f6020b8",
-    "content-hash": "9dc380e5d959ffa10b156778f344caae",
-=======
-    "hash": "25d617ca804ede261b5e07495feb1080",
-    "content-hash": "05f65dda90fe4aa49c0ac6f08b4e72b9",
->>>>>>> added s3-uploads, its configuration to wp-config.php, and gitignoring wp-cli config
+    "hash": "36dfd9cd651b712d439ed273741bbb4b",
+    "content-hash": "921f87af4e796d45dc78f34230414a47",
     "packages": [
         {
             "name": "composer/installers",
@@ -384,6 +379,27 @@
             "time": "2016-01-05 20:47:46"
         },
         {
+            "name": "usstatedept/wp-hide-login-form",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wp-hide-login-form.git",
+                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
+            "time": "2015-12-16 16:18:36"
+        },
+        {
             "name": "usstatedept/wpml-cms-nav",
             "version": "1.4.15",
             "source": {
@@ -536,6 +552,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/google-apps-login",
+            "version": "2.8.15",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/google-apps-login/",
+                "reference": "tags/2.8.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.8.15.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-apps-login/"
         },
         {
             "name": "wpackagist-plugin/gravitate-event-tracking",
