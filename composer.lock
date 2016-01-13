@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9811fba0ef336b1a5753dac93f6020b8",
-    "content-hash": "9dc380e5d959ffa10b156778f344caae",
+    "hash": "36dfd9cd651b712d439ed273741bbb4b",
+    "content-hash": "921f87af4e796d45dc78f34230414a47",
     "packages": [
         {
             "name": "composer/installers",
@@ -143,6 +143,39 @@
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
             "time": "2013-03-15 17:51:14"
+        },
+        {
+            "name": "humanmade/s3-uploads",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:humanmade/S3-Uploads.git",
+                "reference": "3c23f4af12c6e47bf317e0409c1c2f9f7ce6ccee"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.co.uk",
+                    "homepage": "http://hmn.md/"
+                }
+            ],
+            "description": "WordPress plugin to store uploads on S3",
+            "homepage": "https://github.com/humanmade/S3-Uploads",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/s3-uploads/issues",
+                "source": "https://github.com/humanmade/s3-uploads"
+            },
+            "time": "2015-11-20 18:17:44"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -442,15 +475,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "5.2.1",
+            "version": "5.2.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/5.2.1"
+                "reference": "tags/5.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.5.2.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.2.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -685,6 +718,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "humanmade/s3-uploads": 20,
         "usstatedept/sitepress-multilingual-cms": 20
     },
     "prefer-stable": false,
