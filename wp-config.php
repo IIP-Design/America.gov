@@ -2,13 +2,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', getenv('AMGOV_DB_NAME'));
 
 /** MySQL database username */
-define('DB_USER', 'wordpress');
+define('DB_USER', getenv('AMGOV_DB_USER'));
 
 /** MySQL database password */
-define('DB_PASSWORD', 'wordpress');
+define('DB_PASSWORD', getenv('AMGOV_DB_PASSWORD'));
 
 /** MySQL hostname */
 define('DB_HOST', getenv('AMGOV_DB_HOST'));
@@ -20,13 +20,13 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /** S3 Bucket definition for the S3 Uploads plugin */
-define( 'S3_UPLOADS_BUCKET', 'devamgovstatic' );
+define('AMGOV_S3_UPLOADS_BUCKET', getenv('AMGOV_S3_UPLOADS_BUCKET'));
 
 /** S3 Key for S3 Uploads plugin */
-define( 'S3_UPLOADS_KEY', 'AKIAITIPPTY5X4SN5VTQ' );
+define('AMGOV_S3_UPLOADS_KEY', getenv('AMGOV_S3_UPLOADS_KEY'));
 
 /** S3 Secret Key for S3 Uploads plugin */
-define( 'S3_UPLOADS_SECRET', 'Qh+c+MNkV5gkIcj6drYllGEBDa8CC2OBF3tWT9OC' );
+define('AMGOV_S3_UPLOADS_SECRET', getenv('AMGOV_S3_UPLOADS_SECRET'));
 
 
 /* Wordpress Salts */
