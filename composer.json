@@ -16,6 +16,10 @@
             }
         },
         {
+            "type": "git",
+            "url": "git@github.com:humanmade/S3-Uploads.git"
+        },
+        {
             "type": "composer",
             "url": "http://wpackagist.org"
         },
@@ -61,10 +65,6 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:USStateDept/wpml-xliff.git"
-        },
-        {
-            "type": "git",
             "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git"
         },
         {
@@ -80,11 +80,11 @@
         "wordpress": "4.4",
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "0.2.4",
+        "humanmade/s3-uploads": "dev-master",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
         "wpackagist-plugin/autoptimize": "1.9.4",
-        "wpackagist-plugin/addthis": "5.2.1",
+        "wpackagist-plugin/addthis": "5.2.2",
         "wpackagist-plugin/wordpress-seo": "3.0.6",
-        "wpackagist-plugin/google-apps-login": "2.8.15",
         "wpackagist-plugin/regenerate-thumbnails": "2.2.5",
         "wpackagist-plugin/simple-social-icons": "1.0.14",
         "wpackagist-plugin/gravitate-event-tracking": "1.4.1",
@@ -92,12 +92,13 @@
         "wpackagist-plugin/contact-form-7": "4.3.1",
         "wpackagist-plugin/redirection": "2.4.3",
         "wpackagist-plugin/password-protected": "2.0.2",
+        "wpackagist-plugin/google-apps-login": "2.8.15",
+        "usstatedept/genesis": "2.2.4",
         "usstatedept/america": "2.13",
         "usstatedept/america-theme-extender": "1.2.1",
         "usstatedept/america-page-protection": "1.0.3",
         "usstatedept/america-publication-post-type": "0.0.2",
         "usstatedept/mailchimp-for-wp-pro": "2.4.2",
-        "usstatedept/genesis": "2.2.4",
         "usstatedept/sitepress-multilingual-cms": "dev-wpml_3_3_5_switcher_1221_1299_1362",
         "usstatedept/wpml-cms-nav": "1.4.15",
         "usstatedept/wpml-media": "2.1.18",
