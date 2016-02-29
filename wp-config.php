@@ -19,6 +19,19 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+/** S3 Bucket definition for the S3 Uploads plugin */
+define('S3_UPLOADS_BUCKET', getenv('AMGOV_S3_UPLOADS_BUCKET'));
+
+/** Custom CDN uploads domain for S3 Uploads plugin */
+define('S3_UPLOADS_BUCKET_URL', getenv('AMGOV_S3_UPLOADS_BUCKET_URL'));
+
+/** S3 Key for S3 Uploads plugin */
+define('S3_UPLOADS_KEY', getenv('AMGOV_S3_UPLOADS_KEY'));
+
+/** S3 Secret Key for S3 Uploads plugin */
+define('S3_UPLOADS_SECRET', getenv('AMGOV_S3_UPLOADS_SECRET'));
+
+
 /* Wordpress Salts */
 define('AUTH_KEY',         getenv('AMGOV_AUTH_KEY'));
 define('SECURE_AUTH_KEY',  getenv('AMGOV_SECURE_AUTH_KEY'));

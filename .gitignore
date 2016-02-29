@@ -1,10 +1,15 @@
 # Wordpress
 wp/
 wp-content/cache
+wp-content/languages
 wp-content/plugins
 wp-content/themes
 wp-content/uploads
 wp-content/debug.log
+
+# wp-cli
+wp-cli.yml
+wp-cli.local.yml
 
 # wordpress-mu-domain-mapping
 wp-content/sunrise.php
