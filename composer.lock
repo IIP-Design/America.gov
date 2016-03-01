@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3934d303c2f97a27767399a80bf51d0",
-    "content-hash": "b24057210fa83f09155620a613276c1f",
+    "hash": "d7b1e61f4d97b3c54f5f79b9a2d9c5c3",
+    "content-hash": "75582c8f4120484462bbc706fd262bef",
     "packages": [
         {
             "name": "composer/installers",
@@ -237,7 +237,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "8d6c9c48a481dba15cf504a48ef74d068dfa5422"
+                "reference": "d9cc7f543c83e185e3d31ead02bf1ec206087e2a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -253,7 +253,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-02-26 20:24:06"
+            "time": "2016-03-01 21:02:05"
         },
         {
             "name": "usstatedept/america-ajax-search",
@@ -299,11 +299,11 @@
         },
         {
             "name": "usstatedept/america-publication-post-type",
-            "version": "0.0.2",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/america-publication-post-type.git",
-                "reference": "d00b4b78411e039b383291211fc25f158223aa1f"
+                "reference": "ee8b8f0dc86eeb8f6ece96f48ba1962f0d78fe1e"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -316,7 +316,7 @@
                 }
             ],
             "description": "Custom Publication Post Type",
-            "time": "2015-12-07 22:05:09"
+            "time": "2016-03-01 21:28:26"
         },
         {
             "name": "usstatedept/america-theme-extender",
