@@ -4,8 +4,13 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< Updated upstream
     "hash": "d7b1e61f4d97b3c54f5f79b9a2d9c5c3",
     "content-hash": "75582c8f4120484462bbc706fd262bef",
+=======
+    "hash": "1215260cb1a373a10df822b9064f7c42",
+    "content-hash": "465601aa96c2205f1a859fb616359142",
+>>>>>>> Stashed changes
     "packages": [
         {
             "name": "composer/installers",
