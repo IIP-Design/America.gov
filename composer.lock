@@ -4,8 +4,10 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2f5c64cd003e5327b84b927d53f70738",
-    "content-hash": "22909906569c3b88da759b4390ad9120",
+    "hash": "d7b1e61f4d97b3c54f5f79b9a2d9c5c3",
+    "content-hash": "75582c8f4120484462bbc706fd262bef",
+    "hash": "1215260cb1a373a10df822b9064f7c42",
+    "content-hash": "465601aa96c2205f1a859fb616359142",
     "packages": [
         {
             "name": "composer/installers",
@@ -233,11 +235,11 @@
         },
         {
             "name": "usstatedept/america",
-            "version": "2.13",
+            "version": "dev-publications",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "1b9cbc9534a496b792b5cb55cb31ce94d5571d0a"
+                "reference": "d9cc7f543c83e185e3d31ead02bf1ec206087e2a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -253,7 +255,28 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-01-05 18:20:27"
+            "time": "2016-03-01 21:02:05"
+        },
+        {
+            "name": "usstatedept/america-ajax-search",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/-america-ajax-search-filter.git",
+                "reference": "72ecb7d1001020bcc784dc4428d3826febc7cdfa"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "reganta@america.gov"
+                }
+            ],
+            "description": "Plugin tp provide js searching and filtering",
+            "time": "2016-02-29 21:28:35"
         },
         {
             "name": "usstatedept/america-page-protection",
@@ -743,6 +766,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
+        "usstatedept/america": 20,
+        "usstatedept/america-ajax-search": 20,
         "usstatedept/sitepress-multilingual-cms": 20
     },
     "prefer-stable": false,
