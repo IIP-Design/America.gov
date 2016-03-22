@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24a4df6a12170601422964b943f84359",
-    "content-hash": "75c0f2d5d3667176212778fb6472f272",
+    "hash": "3ff119e77e05dd555184d01045e015cb",
+    "content-hash": "539dca7cc8ef7594fa15775a357a28fb",
     "packages": [
         {
             "name": "composer/installers",
@@ -233,11 +233,11 @@
         },
         {
             "name": "usstatedept/america",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "b24a4e11c6fd05f45d865edcf2390220291bfc58"
+                "reference": "d3e7c1f7bd0ce695ba0e08a4167894f2f47d22e2"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -253,7 +253,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-03-17 21:02:21"
+            "time": "2016-03-22 20:43:39"
         },
         {
             "name": "usstatedept/america-ajax-search",
@@ -299,11 +299,11 @@
         },
         {
             "name": "usstatedept/america-publication-post-type",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/america-publication-post-type.git",
-                "reference": "ee8b8f0dc86eeb8f6ece96f48ba1962f0d78fe1e"
+                "reference": "eb92ddeedcfc8f6bcecf56828f82561e5440de47"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -316,7 +316,7 @@
                 }
             ],
             "description": "Custom Publication Post Type",
-            "time": "2016-03-01 21:28:26"
+            "time": "2016-03-22 20:07:00"
         },
         {
             "name": "usstatedept/america-theme-extender",
@@ -520,15 +520,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "5.2.2",
+            "version": "5.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/5.2.2"
+                "reference": "tags/5.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.5.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
