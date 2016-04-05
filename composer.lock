@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f6a7544732e47f785110179b9f02280",
-    "content-hash": "1912c8c8668724a349626382664591a3",
+    "hash": "59373433219df7c2ac89525eea932e0e",
+    "content-hash": "9e2153971a21391af50b91c4a4e196ed",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:humanmade/S3-Uploads.git",
-                "reference": "a1d11e8989cf8f213b73db0d80a67c0412f11207"
+                "reference": "8cf788b93987b4a5e43787ed3344da14663feed9"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -175,7 +175,7 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2016-02-16 20:16:36"
+            "time": "2016-04-03 03:36:47"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -233,11 +233,11 @@
         },
         {
             "name": "usstatedept/america",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "f481b11a875e215437f33b4ccc333140cbedddb8"
+                "reference": "b3213fe5b6f8c4afa76397a43d38b80707ea0890"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -253,7 +253,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-03-23 17:39:54"
+            "time": "2016-04-05 16:14:34"
         },
         {
             "name": "usstatedept/america-ajax-search",
