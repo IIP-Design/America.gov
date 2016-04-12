@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "59373433219df7c2ac89525eea932e0e",
-    "content-hash": "9e2153971a21391af50b91c4a4e196ed",
+    "hash": "552e1604ada4b7ece7263ee807ee7542",
+    "content-hash": "3b1015b2cb43d0c2b80cdead90bd2f50",
     "packages": [
         {
             "name": "composer/installers",
@@ -233,11 +233,11 @@
         },
         {
             "name": "usstatedept/america",
-            "version": "3.0.3",
+            "version": "3.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "b3213fe5b6f8c4afa76397a43d38b80707ea0890"
+                "reference": "95e9cf0d15d28e45f53b5ada19a8dc18af44d14f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -253,15 +253,15 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-04-05 16:14:34"
+            "time": "2016-04-12 13:38:23"
         },
         {
             "name": "usstatedept/america-ajax-search",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:USStateDept/america-ajax-search-filter.git",
-                "reference": "da8821fd764cb5f26d3f20caaf368d928542ed47"
+                "url": "git@github.com:USStateDept/-america-ajax-search-filter.git",
+                "reference": "dc57db74acb59d12180e1d5eca13be51aaa17d90"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -274,7 +274,7 @@
                 }
             ],
             "description": "Plugin tp provide js searching and filtering",
-            "time": "2016-03-10 23:22:25"
+            "time": "2016-04-12 15:54:48"
         },
         {
             "name": "usstatedept/america-page-protection",
