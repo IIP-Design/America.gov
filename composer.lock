@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "076f0e064becc7e5ec971938b5457af9",
-    "content-hash": "80be86e720de02b533d76ef9dc8bd159",
+    "hash": "893afcb891e16e98be10f7a804f2e7ca",
+    "content-hash": "af94acae2a968d47eca71af8f30728a7",
     "packages": [
         {
             "name": "composer/installers",
@@ -233,11 +233,11 @@
         },
         {
             "name": "usstatedept/america",
-            "version": "3.0.7",
+            "version": "3.0.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "b9ed54891c1c80fd783f0d914a90f7dee8d9dc20"
+                "reference": "48ce58d1df3f52df4fcf9c67d5e07528b0235ab3"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -253,7 +253,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-04-12 16:33:57"
+            "time": "2016-04-28 12:36:25"
         },
         {
             "name": "usstatedept/america-ajax-search",
@@ -637,6 +637,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/gravitate-event-tracking/"
+        },
+        {
+            "name": "wpackagist-plugin/optinmonster",
+            "version": "1.1.4.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/optinmonster/",
+                "reference": "tags/1.1.4.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/optinmonster.1.1.4.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/optinmonster/"
         },
         {
             "name": "wpackagist-plugin/password-protected",
