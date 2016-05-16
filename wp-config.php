@@ -31,8 +31,7 @@ define('S3_UPLOADS_KEY', getenv('AMGOV_S3_UPLOADS_KEY'));
 /** S3 Secret Key for S3 Uploads plugin */
 define('S3_UPLOADS_SECRET', getenv('AMGOV_S3_UPLOADS_SECRET'));
 
-define('S3_UPLOADS_REGION', getenv('S3_UPLOADS_REGION'));
-
+define('S3_UPLOADS_REGION', getenv('AMGOV_S3_UPLOADS_REGION'));
 
 /* Wordpress Salts */
 define('AUTH_KEY',         getenv('AMGOV_AUTH_KEY'));
