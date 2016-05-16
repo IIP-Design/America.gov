@@ -1,7 +1,4 @@
 {
-    "config": {
-        "secure-http": false
-    },
     "repositories": [
         {
             "type": "package",
@@ -24,7 +21,7 @@
         },
         {
             "type": "composer",
-            "url": "http://wpackagist.org"
+            "url": "https://wpackagist.org"
         },
         {
             "type": "git",
@@ -90,7 +87,7 @@
     "require": {
         "wordpress": "4.4",
         "fancyguy/webroot-installer": "1.1.0",
-        "koodimonni/composer-dropin-installer": "0.2.4",
+        "koodimonni/composer-dropin-installer": "1.0",
         "humanmade/s3-uploads": "dev-master",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
         "wpackagist-plugin/autoptimize": "1.9.4",

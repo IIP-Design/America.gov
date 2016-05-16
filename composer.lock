@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aae0981ab069f9d5d5ff97cefc76ad2c",
-    "content-hash": "1478ee0b9fa42bc12b4276280ec368b3",
+    "hash": "2282e97b65219dffe8a8bc627639e8bb",
+    "content-hash": "0e2fd67b4e845d1102ccf01783eebda7",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,20 +179,23 @@
         },
         {
             "name": "koodimonni/composer-dropin-installer",
-            "version": "0.2.4",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340"
+                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/618b96fd3bc8c1532610b7f7baedc4e60736a340",
-                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/717d992bccb9e5b1fded44136333704d4e61a4ae",
+                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*-dev"
             },
             "type": "composer-plugin",
             "extra": {
@@ -214,7 +217,7 @@
                 }
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-01-04 10:24:12"
+            "time": "2015-06-11 14:15:20"
         },
         {
             "name": "usstatedept/advanced-custom-fields",
