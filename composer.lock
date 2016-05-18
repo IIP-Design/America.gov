@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2282e97b65219dffe8a8bc627639e8bb",
-    "content-hash": "0e2fd67b4e845d1102ccf01783eebda7",
+    "hash": "52db29f3ac3a91956b8949f94416b71c",
+    "content-hash": "40b1f3fa79305a37a442cc2ec7f3074c",
     "packages": [
         {
             "name": "composer/installers",
@@ -236,11 +236,11 @@
         },
         {
             "name": "usstatedept/america",
-            "version": "3.1",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "3f71fe0536aa7433aa297546d68f65d3f2eb148c"
+                "reference": "cad22db636f0404cc06aa0f9b01f85e3e2c4489a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -256,15 +256,15 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-05-13 16:58:16"
+            "time": "2016-05-18 17:37:10"
         },
         {
             "name": "usstatedept/america-ajax-search",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/-america-ajax-search-filter.git",
-                "reference": "135875a259bada2492aa0a01c5b1c21227e5f646"
+                "reference": "c311591adfe93bc827ed3a777663fb3b4dff0fbc"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -277,7 +277,7 @@
                 }
             ],
             "description": "Plugin tp provide js searching and filtering",
-            "time": "2016-05-13 20:21:13"
+            "time": "2016-05-18 17:26:06"
         },
         {
             "name": "usstatedept/america-page-protection",
