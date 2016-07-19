@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "14aea8552e7034398d19ebcc544ff55f",
-    "content-hash": "8023a79d2b1a89d6107d7292ce34e7d3",
+    "hash": "412c69256e5cfc80a1ed01755e5c33d2",
+    "content-hash": "068f803781e45eb9a0017d241ff9b280",
     "packages": [
         {
             "name": "composer/installers",
@@ -176,6 +176,27 @@
                 "source": "https://github.com/humanmade/s3-uploads"
             },
             "time": "2016-06-09 01:13:42"
+        },
+        {
+            "name": "iip-design/iip-chatroll",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/iip-chatroll.git",
+                "reference": "de7c43e2bb0a23e9944a75334bf9810f2920019d"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "Chatroll Shortcode for IIP Properties",
+            "time": "2016-07-18 19:27:50"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
