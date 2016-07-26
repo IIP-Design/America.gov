@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "412c69256e5cfc80a1ed01755e5c33d2",
-    "content-hash": "068f803781e45eb9a0017d241ff9b280",
+    "hash": "fff49f02929458fce70bafa792056be1",
+    "content-hash": "7ce24ebd1834736d3b7340b9b5643ce6",
     "packages": [
         {
             "name": "composer/installers",
@@ -257,11 +257,11 @@
         },
         {
             "name": "usstatedept/america",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-theme.git",
-                "reference": "c7ac486a99c864241e06a8333af0344a959bdeca"
+                "reference": "706f17e3d8353119cf6134fff885588a644f0d22"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -277,7 +277,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-06-22 18:19:26"
+            "time": "2016-07-26 19:32:31"
         },
         {
             "name": "usstatedept/america-ajax-search",
