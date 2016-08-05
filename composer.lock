@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fff49f02929458fce70bafa792056be1",
-    "content-hash": "7ce24ebd1834736d3b7340b9b5643ce6",
+    "hash": "80f2bce4df41c286eee2171bd7d551f2",
+    "content-hash": "8dc4913a4ca92a4133605ef57ad4b03c",
     "packages": [
         {
             "name": "composer/installers",
@@ -410,18 +410,27 @@
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
-            "version": "2.4.2",
+            "version": "3.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git",
-                "reference": "a89ec9c9d0d85b88804ac3f983c3b5a46610c2a4"
+                "reference": "3c201caa6452258f645827061d6839ccf82c877f"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "v1.0.21"
             },
             "type": "wordpress-plugin",
-            "description": " ",
-            "time": "2015-10-06 12:40:51"
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The best MailChimp plugin for WordPress.",
+            "time": "2016-05-03 13:36:54"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -661,6 +670,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/gravitate-event-tracking/"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "3.1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/3.1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
         },
         {
             "name": "wpackagist-plugin/optinmonster",
