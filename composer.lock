@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "80f2bce4df41c286eee2171bd7d551f2",
-    "content-hash": "8dc4913a4ca92a4133605ef57ad4b03c",
+    "hash": "79d2392cda6be667ee5ad5988ca67c14",
+    "content-hash": "5a6e6fbce9d3de4733fbc752f4b450f8",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:humanmade/S3-Uploads.git",
-                "reference": "5badbcfb9341928060f586d35d8949c2c0e95ebb"
+                "reference": "ab1a3db66adc447a9abf009845f3ae82f93a99ba"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -175,15 +175,15 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2016-06-09 01:13:42"
+            "time": "2017-03-09 01:20:38"
         },
         {
-            "name": "iip-design/iip-chatroll",
-            "version": "1.0.0",
+            "name": "iip-design/iip-interactive",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:IIP-Design/iip-chatroll.git",
-                "reference": "de7c43e2bb0a23e9944a75334bf9810f2920019d"
+                "url": "git@github.com:IIP-Design/iip-interactive.git",
+                "reference": "d0e35d9e1cc7ab4faf8349dd51717d756d74cf2d"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -195,8 +195,8 @@
                     "email": "gustassj@america.gov"
                 }
             ],
-            "description": "Chatroll Shortcode for IIP Properties",
-            "time": "2016-07-18 19:27:50"
+            "description": "Interactive Shortcodes for IIP Properties",
+            "time": "2017-03-21 20:25:01"
         },
         {
             "name": "koodimonni/composer-dropin-installer",

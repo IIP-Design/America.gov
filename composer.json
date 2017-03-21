@@ -85,7 +85,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:IIP-Design/iip-chatroll.git"
+            "url": "git@github.com:IIP-Design/iip-interactive.git"
         }
     ],
     "require": {
@@ -122,7 +122,7 @@
         "usstatedept/wpml-string-translation": "2.3.5",
         "usstatedept/wp-hide-login-form": "1.0.1",
         "usstatedept/advanced-custom-fields": "5.3.2.2",
-        "iip-design/iip-chatroll": "1.0.0"
+        "iip-design/iip-interactive": "2.0.0"
     },
     "extra": {
       "dropin-paths": {
