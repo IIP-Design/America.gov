@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "79d2392cda6be667ee5ad5988ca67c14",
-    "content-hash": "5a6e6fbce9d3de4733fbc752f4b450f8",
+    "content-hash": "cfdf6ac2a25f5b9da1ff2de1d86a8bdb",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,7 +99,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-02-18T17:17:01+00:00"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -142,7 +141,7 @@
             ],
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-03-15 17:51:14"
+            "time": "2013-03-15T17:51:14+00:00"
         },
         {
             "name": "humanmade/s3-uploads",
@@ -196,7 +195,7 @@
                 }
             ],
             "description": "Interactive Shortcodes for IIP Properties",
-            "time": "2017-03-21 20:25:01"
+            "time": "2017-03-21T20:25:01+00:00"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -238,7 +237,7 @@
                 }
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-06-11 14:15:20"
+            "time": "2015-06-11T14:15:20+00:00"
         },
         {
             "name": "usstatedept/advanced-custom-fields",
@@ -253,7 +252,7 @@
             },
             "type": "wordpress-plugin",
             "description": "Advanced Custom Fields",
-            "time": "2015-12-16 18:06:07"
+            "time": "2015-12-16T18:06:07+00:00"
         },
         {
             "name": "usstatedept/america",
@@ -277,7 +276,7 @@
                 }
             ],
             "description": "The America.gov base theme",
-            "time": "2016-07-26 19:32:31"
+            "time": "2016-07-26T19:32:31+00:00"
         },
         {
             "name": "usstatedept/america-ajax-search",
@@ -298,7 +297,7 @@
                 }
             ],
             "description": "Plugin tp provide js searching and filtering",
-            "time": "2016-06-09 13:10:00"
+            "time": "2016-06-09T13:10:00+00:00"
         },
         {
             "name": "usstatedept/america-page-protection",
@@ -319,7 +318,7 @@
                 }
             ],
             "description": "Add password page protection to secured sites",
-            "time": "2015-12-07 21:50:55"
+            "time": "2015-12-07T21:50:55+00:00"
         },
         {
             "name": "usstatedept/america-publication-post-type",
@@ -340,7 +339,7 @@
                 }
             ],
             "description": "Custom Publication Post Type",
-            "time": "2016-03-22 20:07:00"
+            "time": "2016-03-22T20:07:00+00:00"
         },
         {
             "name": "usstatedept/america-theme-extender",
@@ -361,15 +360,15 @@
                 }
             ],
             "description": "Extends america base theme",
-            "time": "2015-12-07 21:47:47"
+            "time": "2015-12-07T21:47:47+00:00"
         },
         {
             "name": "usstatedept/genesis",
-            "version": "2.2.4",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/genesis-framework.git",
-                "reference": "97f6829cebc400ff2e848ad946fad7242a492b42"
+                "reference": "a58ccad0df0611315f4d6843538573ad123a1001"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -382,7 +381,7 @@
                 }
             ],
             "description": "The Genesis Framework package for America.gov",
-            "time": "2015-12-16 20:46:17"
+            "time": "2017-04-19T19:57:51+00:00"
         },
         {
             "name": "usstatedept/languages",
@@ -406,7 +405,7 @@
                 }
             ],
             "description": "Language files for Wordpress Core",
-            "time": "2016-01-19 19:16:04"
+            "time": "2016-01-19T19:16:04+00:00"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
@@ -430,7 +429,7 @@
                 }
             ],
             "description": "The best MailChimp plugin for WordPress.",
-            "time": "2016-05-03 13:36:54"
+            "time": "2016-05-03T13:36:54+00:00"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -475,7 +474,7 @@
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16 16:18:36"
+            "time": "2015-12-16T16:18:36+00:00"
         },
         {
             "name": "usstatedept/wpml-cms-nav",
@@ -490,7 +489,7 @@
             },
             "type": "wordpress-plugin",
             "description": "Adds CMS navigation elements to sites built with WPML",
-            "time": "2016-01-04 16:38:10"
+            "time": "2016-01-04T16:38:10+00:00"
         },
         {
             "name": "usstatedept/wpml-media",
@@ -505,7 +504,7 @@
             },
             "type": "wordpress-plugin",
             "description": "Add multilingual support for Media files",
-            "time": "2016-01-04 15:53:30"
+            "time": "2016-01-04T15:53:30+00:00"
         },
         {
             "name": "usstatedept/wpml-sticky-links",
@@ -520,7 +519,7 @@
             },
             "type": "wordpress-plugin",
             "description": "Prevents internal links from ever breaking",
-            "time": "2016-01-04 16:31:44"
+            "time": "2016-01-04T16:31:44+00:00"
         },
         {
             "name": "usstatedept/wpml-string-translation",
@@ -535,14 +534,14 @@
             },
             "type": "wordpress-plugin",
             "description": "Adds theme and plugins localization capabilities to WPML",
-            "time": "2016-01-04 16:28:59"
+            "time": "2016-01-04T16:28:59+00:00"
         },
         {
             "name": "wordpress",
-            "version": "4.4",
+            "version": "4.7.4",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.4.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.7.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -657,11 +656,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gravitate-event-tracking/",
-                "reference": "trunk"
+                "reference": "tags/1.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gravitate-event-tracking.zip",
+                "url": "https://downloads.wordpress.org/plugin/gravitate-event-tracking.1.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
