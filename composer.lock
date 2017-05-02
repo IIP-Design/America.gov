@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfdf6ac2a25f5b9da1ff2de1d86a8bdb",
+    "content-hash": "5e5153b9c710ac2b9c656c347f3b6089",
     "packages": [
         {
             "name": "composer/installers",
@@ -196,6 +196,27 @@
             ],
             "description": "Interactive Shortcodes for IIP Properties",
             "time": "2017-03-21T20:25:01+00:00"
+        },
+        {
+            "name": "iip-design/wp-elasticsearch-feeder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
+                "reference": "c7c67b00588d58788cb3fb5528bab0a429e1e568"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "orelusm@america.gov"
+                }
+            ],
+            "description": "Syncs content to ElasticSearch",
+            "time": "2017-05-02 19:50:08"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -571,26 +592,6 @@
             "homepage": "https://wordpress.org/plugins/addthis/"
         },
         {
-            "name": "wpackagist-plugin/amazon-ses-and-dkim-mailer",
-            "version": "1.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/amazon-ses-and-dkim-mailer/",
-                "reference": "tags/1.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-ses-and-dkim-mailer.1.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amazon-ses-and-dkim-mailer/"
-        },
-        {
             "name": "wpackagist-plugin/autoptimize",
             "version": "1.9.4",
             "source": {
@@ -829,6 +830,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-ses",
+            "version": "0.4.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-ses/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1482924123",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-ses/"
         }
     ],
     "packages-dev": [],
@@ -836,7 +857,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
-        "usstatedept/sitepress-multilingual-cms": 20
+        "usstatedept/sitepress-multilingual-cms": 20,
+        "iip-design/wp-elasticsearch-feeder": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

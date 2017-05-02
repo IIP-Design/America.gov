@@ -86,6 +86,10 @@
         {
             "type": "git",
             "url": "git@github.com:IIP-Design/iip-interactive.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git"
         }
     ],
     "require": {
@@ -100,7 +104,7 @@
         "wpackagist-plugin/regenerate-thumbnails": "2.2.5",
         "wpackagist-plugin/simple-social-icons": "1.0.14",
         "wpackagist-plugin/gravitate-event-tracking": "1.4.1",
-        "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
+        "wpackagist-plugin/wp-ses": "0.4.9",
         "wpackagist-plugin/contact-form-7": "4.3.1",
         "wpackagist-plugin/redirection": "2.4.3",
         "wpackagist-plugin/password-protected": "2.0.2",
@@ -122,7 +126,8 @@
         "usstatedept/wpml-string-translation": "2.3.5",
         "usstatedept/wp-hide-login-form": "1.0.1",
         "usstatedept/advanced-custom-fields": "5.3.2.2",
-        "iip-design/iip-interactive": "2.0.0"
+        "iip-design/iip-interactive": "2.0.0",
+        "iip-design/wp-elasticsearch-feeder": "dev-master"
     },
     "extra": {
       "dropin-paths": {
