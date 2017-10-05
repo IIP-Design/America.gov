@@ -29,7 +29,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:USStateDept/america-page-protection.git"
+            "url": "git@github.com:IIP-Design/america-page-protection.git"
         },
          {
             "type": "git",
@@ -118,7 +118,7 @@
         "usstatedept/genesis": "2.4.2",
         "usstatedept/america": "3.1.9",
         "usstatedept/america-theme-extender": "1.2.1",
-        "usstatedept/america-page-protection": "1.0.3",
+        "iip-design/america-page-protection": "1.0.3",
         "usstatedept/america-publication-post-type": "1.0.1",
         "usstatedept/america-ajax-search": "1.2",
         "usstatedept/languages": "4.3.1",
