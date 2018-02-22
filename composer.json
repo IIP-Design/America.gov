@@ -131,7 +131,7 @@
         "iip-design/wp-hide-login-form": "1.0.1",
         "iip-design/advanced-custom-fields": "5.3.2.2",
         "iip-design/iip-interactive": "2.0.0",
-        "iip-design/wp-elasticsearch-feeder": "dev-master",
+        "iip-design/wp-elasticsearch-feeder": "1.0.0",
         "iip-design/js_composer": "4.11.2"
     },
     "extra": {
