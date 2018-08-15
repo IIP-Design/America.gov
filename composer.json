@@ -5,10 +5,10 @@
             "package": {
                 "name": "wordpress",
                 "type": "webroot",
-                "version": "4.9.4",
+                "version": "4.9.8",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.9.4.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.9.8.zip"
                 },
                 "require" : {
                     "fancyguy/webroot-installer": "1.1.0"
@@ -24,115 +24,76 @@
             "url": "https://wpackagist.org"
         },
         {
+          "type": "git",
+          "url": "git@github.com:IIP-Design/genesis-framework.git"
+        },
+        {
             "type": "git",
             "url": "git@github.com:IIP-Design/America-theme.git"
         },
         {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/america-page-protection.git"
+          "type": "git",
+          "url": "git@github.com:IIP-Design/advanced-custom-fields.git"
         },
-         {
+        {
             "type": "git",
             "url": "git@github.com:IIP-Design/america-ajax-search-filter.git"
         },
         {
             "type": "git",
-            "url": "git@github.com:IIP-Design/wp_core_languages.git"
+            "url": "git@github.com:IIP-Design/america-page-protection.git"
         },
         {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/america-publication-post-type.git"
-        },
-         {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/america-theme-extender.git"
+          "type": "git",
+          "url": "git@github.com:IIP-Design/america-publication-post-type.git"
         },
         {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/genesis-framework.git"
+          "type": "git",
+          "url": "git@github.com:IIP-Design/america-theme-extender.git"
         },
         {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/sitepress-multilingual-cms.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/wpml-cms-nav.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/wpml-media.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/wpml-sticky-links.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/wpml-string-translation.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/mailchimp-for-wp-pro.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/wp-hide-login-form.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/advanced-custom-fields.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/iip-interactive.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git"
+          "type": "git",
+          "url": "git@github.com:IIP-Design/iip-interactive.git"
         },
         {
           "type": "git",
           "url": "git@github.com:IIP-Design/js_composer.git"
+        },
+        {
+          "type": "git",
+          "url": "git@github.com:IIP-Design/wp_core_languages.git"
+        },
+        {
+          "type": "git",
+          "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/wp-hide-login-form.git"
         }
     ],
     "require": {
-        "wordpress": "4.9.4",
+        "wordpress": "4.9.8",
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "1.0",
         "humanmade/s3-uploads": "dev-master",
+        "wpackagist-plugin/addthis": "6.1.6",
+        "wpackagist-plugin/google-apps-login": "3.2",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
-        "wpackagist-plugin/autoptimize": "1.9.4",
-        "wpackagist-plugin/addthis": "5.3.1",
-        "wpackagist-plugin/wordpress-seo": "3.0.6",
-        "wpackagist-plugin/regenerate-thumbnails": "2.2.5",
-        "wpackagist-plugin/simple-social-icons": "1.0.14",
-        "wpackagist-plugin/gravitate-event-tracking": "1.4.1",
-        "wpackagist-plugin/wp-ses": "0.4.9",
-        "wpackagist-plugin/contact-form-7": "4.3.1",
-        "wpackagist-plugin/redirection": "2.4.3",
-        "wpackagist-plugin/password-protected": "2.0.2",
-        "wpackagist-plugin/google-apps-login": "2.8.15",
-        "wpackagist-plugin/optinmonster": "1.1.4.6",
-        "wpackagist-plugin/mailchimp-for-wp": "3.1.7",
-        "iip-design/genesis": "2.4.2",
+        "wpackagist-plugin/wordpress-seo": "8.0",
+        "wpackagist-plugin/wp-ses": "0.8.1",
+        "iip-design/genesis": "2.6.1",
         "iip-design/america": "3.1.10",
-        "iip-design/america-theme-extender": "1.2.2",
+        "iip-design/advanced-custom-fields": "5.7.2",
+        "iip-design/america-ajax-search": "1.2",
         "iip-design/america-page-protection": "1.0.3",
         "iip-design/america-publication-post-type": "1.0.2",
-        "iip-design/america-ajax-search": "1.2",
+        "iip-design/america-theme-extender": "1.2.2",
+        "iip-design/iip-interactive": "2.1.2",
+        "iip-design/js_composer": "5.5.2",
         "iip-design/languages": "4.3.1",
-        "iip-design/mailchimp-for-wp-pro": "3.1.5",
-        "iip-design/sitepress-multilingual-cms": "dev-wpml_3_3_5_switcher_1221_1299_1362",
-        "iip-design/wpml-cms-nav": "1.4.22",
-        "iip-design/wpml-media": "2.2.3",
-        "iip-design/wpml-sticky-links": "1.4.3",
-        "iip-design/wpml-string-translation": "2.7.3",
         "iip-design/wp-hide-login-form": "1.0.1",
-        "iip-design/advanced-custom-fields": "5.3.2.2",
-        "iip-design/iip-interactive": "2.0.0",
-        "iip-design/wp-elasticsearch-feeder": "1.0.0",
-        "iip-design/js_composer": "4.11.2"
+        "iip-design/wp-elasticsearch-feeder": "2.3.0"
     },
     "extra": {
       "dropin-paths": {
