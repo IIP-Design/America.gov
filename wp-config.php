@@ -1,4 +1,6 @@
 <?php
+// autoload vendor classes
+require_once __DIR__ . '/vendor/autoload.php';
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -42,7 +44,6 @@ define('AUTH_SALT',        getenv('AMGOV_AUTH_SALT'));
 define('SECURE_AUTH_SALT', getenv('AMGOV_SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT',   getenv('AMGOV_LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('AMGOV_NONCE_SALT'));
-
 
 $table_prefix  = 'wp_';
 
