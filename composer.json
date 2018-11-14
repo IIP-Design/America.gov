@@ -33,6 +33,14 @@
         },
         {
           "type": "git",
+          "url": "git@github.com:IIP-Design/corona-theme.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/interactive-theme.git"
+        },
+        {
+          "type": "git",
           "url": "git@github.com:IIP-Design/advanced-custom-fields.git"
         },
         {
@@ -77,6 +85,7 @@
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "1.0",
         "humanmade/s3-uploads": "dev-master",
+        "twig/twig": "^2.0",
         "wpackagist-plugin/addthis": "6.1.6",
         "wpackagist-plugin/google-apps-login": "3.2",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
@@ -84,6 +93,8 @@
         "wpackagist-plugin/wp-ses": "0.8.1",
         "iip-design/genesis": "2.6.1",
         "iip-design/america": "3.1.10",
+        "iip-design/corona": "v2.12.2",
+        "iip-design/interactive": "dev-master",
         "iip-design/advanced-custom-fields": "5.7.2",
         "iip-design/america-ajax-search": "1.2",
         "iip-design/america-page-protection": "1.0.3",
