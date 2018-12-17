@@ -73,6 +73,10 @@
         },
         {
           "type": "git",
+          "url": "git@github.com:IIP-Design/iip-events.git"
+        },
+        {
+          "type": "git",
           "url": "git@github.com:IIP-Design/iip-interactive.git"
         },
         {
@@ -114,6 +118,7 @@
         "iip-design/cdp-cmb2-fields": "1.0.0",
         "iip-design/formidable": "3.03.01",
         "iip-design/formidable-pro": "3.03.01",
+        "iip-design/iip-events": "dev-master",
         "iip-design/iip-interactive": "2.1.2",
         "iip-design/js_composer": "5.5.2",
         "iip-design/link-picker-for-cmb2": "v1.0.0",
