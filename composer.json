@@ -5,10 +5,10 @@
             "package": {
                 "name": "wordpress",
                 "type": "webroot",
-                "version": "4.9.8",
+                "version": "4.9.9",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.9.8.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.9.9.zip"
                 },
                 "require" : {
                     "fancyguy/webroot-installer": "1.1.0"
@@ -73,27 +73,27 @@
         }
     ],
     "require": {
-        "wordpress": "4.9.8",
+        "wordpress": "4.9.9",
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "1.0",
         "humanmade/s3-uploads": "dev-master",
-        "wpackagist-plugin/addthis": "6.1.6",
+        "wpackagist-plugin/addthis": "6.1.8",
         "wpackagist-plugin/google-apps-login": "3.2",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
         "wpackagist-plugin/wordpress-seo": "8.0",
-        "wpackagist-plugin/wp-ses": "0.8.1",
-        "iip-design/genesis": "2.6.1",
+        "wpackagist-plugin/wp-ses": "0.8.2",
+        "iip-design/genesis": "2.7.3",
         "iip-design/america": "3.1.10",
-        "iip-design/advanced-custom-fields": "5.7.2",
+        "iip-design/advanced-custom-fields": "5.7.9",
         "iip-design/america-ajax-search": "1.2",
         "iip-design/america-page-protection": "1.0.3",
         "iip-design/america-publication-post-type": "1.0.2",
         "iip-design/america-theme-extender": "1.2.2",
         "iip-design/iip-interactive": "2.1.2",
-        "iip-design/js_composer": "5.5.2",
+        "iip-design/js_composer": "5.6",
         "iip-design/languages": "4.3.1",
         "iip-design/wp-hide-login-form": "1.0.1",
-        "iip-design/wp-elasticsearch-feeder": "2.3.0"
+        "iip-design/wp-elasticsearch-feeder": "2.4.0"
     },
     "extra": {
       "dropin-paths": {
