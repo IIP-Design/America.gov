@@ -1,110 +1,149 @@
 {
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "wordpress",
-                "type": "webroot",
-                "version": "4.9.9",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.9.9.zip"
-                },
-                "require" : {
-                    "fancyguy/webroot-installer": "1.1.0"
-                }
-            }
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "wordpress",
+        "type": "webroot",
+        "version": "5.0.3",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/WordPress/WordPress/archive/5.0.3.zip"
         },
-        {
-            "type": "git",
-            "url": "git@github.com:humanmade/S3-Uploads.git"
-        },
-        {
-            "type": "composer",
-            "url": "https://wpackagist.org"
-        },
-        {
-          "type": "git",
-          "url": "git@github.com:IIP-Design/genesis-framework.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/America-theme.git"
-        },
-        {
-          "type": "git",
-          "url": "git@github.com:IIP-Design/advanced-custom-fields.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/america-ajax-search-filter.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/america-page-protection.git"
-        },
-        {
-          "type": "git",
-          "url": "git@github.com:IIP-Design/america-publication-post-type.git"
-        },
-        {
-          "type": "git",
-          "url": "git@github.com:IIP-Design/america-theme-extender.git"
-        },
-        {
-          "type": "git",
-          "url": "git@github.com:IIP-Design/iip-interactive.git"
-        },
-        {
-          "type": "git",
-          "url": "git@github.com:IIP-Design/js_composer.git"
-        },
-        {
-          "type": "git",
-          "url": "git@github.com:IIP-Design/wp_core_languages.git"
-        },
-        {
-          "type": "git",
-          "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:IIP-Design/wp-hide-login-form.git"
+        "require" : {
+          "fancyguy/webroot-installer": "1.1.0"
         }
-    ],
-    "require": {
-        "wordpress": "4.9.9",
-        "fancyguy/webroot-installer": "1.1.0",
-        "koodimonni/composer-dropin-installer": "1.0",
-        "humanmade/s3-uploads": "dev-master",
-        "wpackagist-plugin/addthis": "6.1.8",
-        "wpackagist-plugin/google-apps-login": "3.2",
-        "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
-        "wpackagist-plugin/wordpress-seo": "8.0",
-        "wpackagist-plugin/wp-ses": "0.8.2",
-        "iip-design/genesis": "2.7.3",
-        "iip-design/america": "3.1.10",
-        "iip-design/advanced-custom-fields": "5.7.9",
-        "iip-design/america-ajax-search": "1.2",
-        "iip-design/america-page-protection": "1.0.3",
-        "iip-design/america-publication-post-type": "1.0.2",
-        "iip-design/america-theme-extender": "1.2.2",
-        "iip-design/iip-interactive": "2.1.2",
-        "iip-design/js_composer": "5.6",
-        "iip-design/languages": "4.3.1",
-        "iip-design/wp-hide-login-form": "1.0.1",
-        "iip-design/wp-elasticsearch-feeder": "2.4.0"
+      }
     },
-    "extra": {
-      "dropin-paths": {
-          "wp-content/": [
-            "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
-          ],
-          "wp-content/languages":[
-            "package:iip-design/languages"
-          ]
-      },
-      "webroot-dir": "wp",
-      "webroot-package": "wordpress"
+    {
+      "type": "git",
+      "url": "git@github.com:humanmade/S3-Uploads.git"
+    },
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/genesis-framework.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/America-theme.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/corona-theme.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/interactive-theme.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/advanced-custom-fields.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/america-ajax-search-filter.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/america-page-protection.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/america-publication-post-type.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/america-theme-extender.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/cdp-cmb2-fields.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/formidable.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/formidable-pro.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/iip-events.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/iip-gutenblocks.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/js_composer.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/link-picker-for-cmb2.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/wp_core_languages.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:IIP-Design/wp-hide-login-form.git"
+    }
+  ],
+  "require": {
+    "wordpress": "5.0.3",
+    "fancyguy/webroot-installer": "1.1.0",
+    "koodimonni/composer-dropin-installer": "1.0",
+    "humanmade/s3-uploads": "dev-master",
+    "twig/twig": "^2.0",
+    "iip-design/genesis": "2.7.3",
+    "iip-design/america": "3.1.10",
+    "iip-design/corona": "v2.12.2",
+    "iip-design/interactive": "dev-master",
+    "iip-design/advanced-custom-fields": "5.7.9",
+    "iip-design/america-ajax-search": "1.2",
+    "iip-design/america-page-protection": "1.0.3",
+    "iip-design/america-publication-post-type": "1.0.2",
+    "iip-design/america-theme-extender": "1.2.2",
+    "iip-design/cdp-cmb2-fields": "1.0.0",
+    "iip-design/formidable": "3.05",
+    "iip-design/formidable-pro": "3.05",
+    "iip-design/iip-events": "dev-master",
+    "iip-design/iip-gutenblocks": "v1.0.0",
+    "iip-design/js_composer": "5.6",
+    "iip-design/languages": "4.3.1",
+    "iip-design/link-picker-for-cmb2": "v1.0.0",
+    "iip-design/wp-elasticsearch-feeder": "2.4.0",
+    "iip-design/wp-hide-login-form": "1.0.1",
+    "wpackagist-plugin/addthis": "6.1.8",
+    "wpackagist-plugin/cmb2": "2.6.0",
+    "wpackagist-plugin/google-apps-login": "3.2",
+    "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
+    "wpackagist-plugin/wordpress-seo": "8.0",
+    "wpackagist-plugin/wp-api-menus": "1.3.1",
+    "wpackagist-plugin/wp-rest-api-sidebars": "0.1.1",
+    "wpackagist-plugin/wp-ses": "0.8.2"
+  },
+  "extra": {
+    "dropin-paths": {
+      "wp-content/": [
+        "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
+      ],
+      "wp-content/languages":[
+        "package:iip-design/languages"
+      ]
+    },
+    "webroot-dir": "wp",
+    "webroot-package": "wordpress"
   }
 }
