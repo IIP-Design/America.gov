@@ -5,10 +5,10 @@
       "package": {
         "name": "wordpress",
         "type": "webroot",
-        "version": "5.0.3",
+        "version": "5.1.1",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/5.0.3.zip"
+          "url": "https://github.com/WordPress/WordPress/archive/5.1.1.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.1.0"
@@ -101,7 +101,7 @@
     }
   ],
   "require": {
-    "wordpress": "5.0.3",
+    "wordpress": "5.1.1",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "1.0",
     "humanmade/s3-uploads": "dev-master",
@@ -109,7 +109,7 @@
     "iip-design/genesis": "2.7.3",
     "iip-design/america": "3.1.10",
     "iip-design/corona": "v2.12.2",
-    "iip-design/interactive": "v1.0.2",
+    "iip-design/interactive": "v1.0.3",
     "iip-design/advanced-custom-fields": "5.7.9",
     "iip-design/america-ajax-search": "1.2",
     "iip-design/america-page-protection": "1.0.3",
@@ -118,8 +118,8 @@
     "iip-design/cdp-cmb2-fields": "1.0.0",
     "iip-design/formidable": "3.05",
     "iip-design/formidable-pro": "3.05",
-    "iip-design/iip-events": "v1.1.0",
-    "iip-design/iip-gutenblocks": "v1.1.1",
+    "iip-design/iip-events": "v1.1.1",
+    "iip-design/iip-gutenblocks": "v1.1.2",
     "iip-design/js_composer": "5.6",
     "iip-design/languages": "4.3.1",
     "iip-design/link-picker-for-cmb2": "v1.0.0",
