@@ -104,7 +104,7 @@
     "wordpress": "5.4.1",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "1.0",
-    "humanmade/s3-uploads": "dev-master",
+    "humanmade/s3-uploads": "2.2.2",
     "twig/twig": "^2.0",
     "iip-design/genesis": "3.3.2",
     "iip-design/america": "3.1.10",
