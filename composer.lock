@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e5d6166be3cb8dbcc49963dd9479a40",
+    "content-hash": "c707d508932aac9bf7f696e4707b42c9",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -651,11 +651,11 @@
         },
         {
             "name": "iip-design/genesis",
-            "version": "3.3.2",
+            "version": "3.3.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/genesis-framework.git",
-                "reference": "bc6f3c923cd5da627a8f5d4a44e1cfc1f6377544"
+                "reference": "8b1a64f918b8a04edbdde3b48c37efd70afff85e"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -668,7 +668,7 @@
                 }
             ],
             "description": "The Genesis Framework package for America.gov",
-            "time": "2020-07-24T17:31:16+00:00"
+            "time": "2020-08-22T17:37:54+00:00"
         },
         {
             "name": "iip-design/iip-events",
@@ -814,24 +814,35 @@
         },
         {
             "name": "iip-design/wp-hide-login-form",
-            "version": "1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-hide-login-form.git",
-                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
+                "reference": "c1bf3438b594872a6196bff3e653a7db15c7b643"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
             "type": "wordpress-plugin",
             "authors": [
                 {
-                    "name": "Office of Design, Bureau of International Information Programs",
-                    "email": "gustassj@america.gov"
+                    "name": "Scott Gustas, U.S. Department of State - Global Public Affairs Digital Lab",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Marek Rewers, U.S. Department of State - Global Public Affairs Digital Lab",
+                    "email": "rewersmc@america.gov",
+                    "role": "Developer"
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16T16:18:36+00:00"
+            "time": "2020-08-21T21:18:38+00:00"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
