@@ -3,7 +3,7 @@
     {
       "type": "package",
       "package": {
-        "name": "wordpress",
+        "name": "wordpress/wordpress",
         "type": "webroot",
         "version": "5.4.2",
         "dist": {
@@ -101,7 +101,7 @@
     }
   ],
   "require": {
-    "wordpress": "5.4.2",
+    "wordpress/wordpress": "5.4.2",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "1.0",
     "humanmade/s3-uploads": "2.2.2",
@@ -144,6 +144,6 @@
       ]
     },
     "webroot-dir": "wp",
-    "webroot-package": "wordpress"
+    "webroot-package": "wordpress/wordpress"
   }
 }
