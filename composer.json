@@ -103,7 +103,7 @@
   "require": {
     "wordpress/wordpress": "5.5",
     "fancyguy/webroot-installer": "1.1.0",
-    "koodimonni/composer-dropin-installer": "1.0",
+    "koodimonni/composer-dropin-installer": "1.2",
     "humanmade/s3-uploads": "2.2.2",
     "twig/twig": "^2.0",
     "iip-design/genesis": "3.3.2",
