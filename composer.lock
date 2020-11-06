@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df7ebc75b51c60c90048f79240c24c64",
+    "content-hash": "ceade7606c7d171af309d11e08e55c80",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.158.16",
+            "version": "3.158.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "6e8fc20ff7bc21b28e80815a9818b6ca7928ae3a"
+                "reference": "0aae6d7d0e9fc40ace69ed7f7785d7ddab4dabd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6e8fc20ff7bc21b28e80815a9818b6ca7928ae3a",
-                "reference": "6e8fc20ff7bc21b28e80815a9818b6ca7928ae3a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0aae6d7d0e9fc40ace69ed7f7785d7ddab4dabd0",
+                "reference": "0aae6d7d0e9fc40ace69ed7f7785d7ddab4dabd0",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-10-28T20:19:05+00:00"
+            "time": "2020-11-06T19:13:12+00:00"
         },
         {
             "name": "composer/installers",
@@ -230,11 +230,11 @@
         },
         {
             "name": "gpalab/gpa-gutenblocks",
-            "version": "v1.2.0",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/gpa-gutenblocks.git",
-                "reference": "295590fca4c723f938e7b9e7685851ca76d2932e"
+                "reference": "291cbf8ee5c012629fe61b71af3e19808d0a33b7"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -255,7 +255,7 @@
                 }
             ],
             "description": "Plugin providing custom content blocks for the WordPress Gutenberg editor",
-            "time": "2020-10-28T21:17:52+00:00"
+            "time": "2020-11-06T20:58:39+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
